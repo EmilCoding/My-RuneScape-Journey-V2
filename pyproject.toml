@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RSHistTools"
+version = "2.0.0"
+authors = [
+  { name="ELB" },
+]
+description = "Reposity documents my journey through RuneScape one update at a time."
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Wiki = "https://runescape.wiki/w/"
+Updates = "https://runescape.wiki/w/Game_updates"
