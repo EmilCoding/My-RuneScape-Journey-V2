@@ -4,10 +4,10 @@ import click
 import datetime
 import urllib.parse
 
-from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT, FUTURE_GOALS, COMPLETED_FOLDERS
+from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT, FUTURE_GOALS, COMPLETED_FOLDERS, COMPLETED_GOALS
 from rshisttools.skills import Skill, SKILL_ICONS
 from rshisttools.runemetrics_api import LevelOverview, get_ingame_overview
-from rshisttools.dates import CURRENT_INGAME_DATE, max_total_level
+from rshisttools.dates import CURRENT_INGAME_DATE, RUNESCAPE_2_RELEASE_DAY, max_total_level
 from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window, walk_updates
 
 from rshisttools.skillfront import MinimumStates, skill_front_history
@@ -41,7 +41,6 @@ def update_public(ctx) -> None:
     """
     ctx.invoke(update_readme)
     ctx.invoke(update_current_skill_front)
-    ctx.invoke(end_of_year_skill_front)
 
 
 @main.command
@@ -71,6 +70,14 @@ def update_readme() -> None:
     click.echo("Save changes to ~/README.md")
     with open(README, 'w') as filewrapper:
         filewrapper.writelines(lines)
+
+
+@main.command()
+@click.pass_context
+def update_skill_fronts(ctx) -> None:
+    ctx.invoke(update_current_skill_front)
+    ctx.invoke(end_of_year_skill_front)
+    ctx.invoke(end_of_version_skill_front)
 
 
 @main.command
@@ -109,9 +116,33 @@ def end_of_year_skill_front() -> None:
             filewrapper.writelines(minimum_skill_front_markdown_end_of_year(update, skillfront))
 
 
+@main.command
+def end_of_version_skill_front() -> None:
+    """Write and end-of-version skill fronts for RuneScape classic, and later RuneScape 2"""
+    history = skill_front_history(CURRENT_INGAME_DATE)
+
+    # Find last update in RuneScape Classic
+    *_, (_, skillfront) = filter(lambda pair: pair[0].date < RUNESCAPE_2_RELEASE_DAY, history)
+
+    click.echo("Update minimum skill front for RuneScape Classic")
+    with open(COMPLETED_GOALS.joinpath('RuneScape Classic', 'minimum-skill-front.md'), 'w') as filewrapper:
+        filewrapper.writelines(minimum_skill_front_markdown_end_of_version(skillfront))
+
+
 # ============================================================================================================================ #
 # Public - Helper function                                                                                                     #
 # ============================================================================================================================ #
+def minimum_skill_front_markdown_end_of_version(skillfront: MinimumStates) -> list[str]:
+    return [
+        f'# Minimum skill front: End of RuneScape Classic\n\n',
+        *stats_menu_markdown({skill: level for skill, (level, _) in skillfront.items()}),
+        "\n",
+        *requirement_reasons_markdown(skillfront),
+        "\n",
+        f"*Last updated: {datetime.datetime.now():%d %B %Y - %H:%M:%S}*\n"
+    ]
+
+
 def minimum_skill_front_markdown_end_of_year(update: UpdateInfo, skillfront: MinimumStates) -> list[str]:
     return [
         f'# Minimum skill front: End of {update.date.year}\n\n',
