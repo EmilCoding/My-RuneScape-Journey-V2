@@ -9,6 +9,7 @@ import re
 import pathlib
 import datetime
 import itertools
+import urllib.parse
 from dataclasses import dataclass
 from typing import Generator, Iterator, NamedTuple, NotRequired, TypedDict, Unpack
 
@@ -51,6 +52,9 @@ class UpdateInfo:
 
     def get_date(self) -> datetime.date:
         return self.date
+
+    def as_url(self) -> str:
+        return f"./{urllib.parse.quote(self.path.relative_to(ROOT).as_posix())}"
 
 
 INCOMPLETE_GOALS_PATTERN = re.compile('^- [ ] (.*)$')

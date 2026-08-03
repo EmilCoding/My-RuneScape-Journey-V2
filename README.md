@@ -13,7 +13,7 @@
 - [Current age](#age): Fifth age
 - [Era](#eras): Post-split
 - [Backlog](./backlog.md) - This is the backlog. Here you can see which goals I have skipped for different reasons.
-- [Minimum skill front](./min-skill-front.md) - This lists the minimum stat requirements at the current point in time.
+- [Minimum skill front](./minimum-skill-front.md) - This lists the minimum stat requirements at the current point in time.
 
 ## What is it?
 
@@ -182,4 +182,4 @@ The same rules apply to the [Trimmed Completionist Cape achievement](https://run
 
 The main source material is the RuneScape Wiki's list of [Game Updates](https://runescape.wiki/w/Game_updates).
 
-*Last updates: 03 August 2026 - 11:15:04*
+*Last updates: 03 August 2026 - 13:04:28*

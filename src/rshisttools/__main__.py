@@ -134,7 +134,7 @@ def end_of_version_skill_front() -> None:
 # ============================================================================================================================ #
 def minimum_skill_front_markdown_end_of_version(skillfront: MinimumStates) -> list[str]:
     return [
-        f'# Minimum skill front: End of RuneScape Classic\n\n',
+        '# Minimum skill front: End of RuneScape Classic\n\n',
         *stats_menu_markdown({skill: level for skill, (level, _) in skillfront.items()}),
         "\n",
         *requirement_reasons_markdown(skillfront),
