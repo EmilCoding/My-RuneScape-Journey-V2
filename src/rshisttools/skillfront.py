@@ -73,7 +73,7 @@ def total_level(front: MinimumStates) -> int:
 
 def get_all_skill_updates(with_optional: bool = False, **options: Unpack[WalkOptions]) -> Generator[tuple[UpdateInfo, MinimumStates], None, None]:
     """Yield updates that contain at least one skill requirement."""
-    for update in get_updates(with_all=True, **options):
+    for update in get_updates(with_root=True, with_completed=True, with_partially_completed=True, **options):
         if skill_requirements := fetch_skill_requirements(update, with_optional):
             yield (update, skill_requirements)
 

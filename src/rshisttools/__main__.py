@@ -4,11 +4,11 @@ import click
 import datetime
 import urllib.parse
 
-from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT
+from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT, FUTURE_GOALS, COMPLETED_FOLDERS
 from rshisttools.skills import Skill, SKILL_ICONS
 from rshisttools.runemetrics_api import LevelOverview, get_ingame_overview
 from rshisttools.dates import CURRENT_INGAME_DATE, max_total_level
-from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window
+from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window, walk_updates
 
 from rshisttools.skillfront import MinimumStates, skill_front_history
 
@@ -90,16 +90,39 @@ def end_of_year_skill_front() -> None:
     Each front is described in a markdown file with with a name generated from
     the 'filename_template' argument and and is saved in its respective completed year folder.
     """
+    click.echo("Determine skill front history and extract them into years ")
+    end_of_year_fronts: dict[int, tuple[UpdateInfo, MinimumStates]] = {}
+    for update, skillfront in skill_front_history(CURRENT_INGAME_DATE):
+        end_of_year_fronts[update.date.year] = (update, skillfront)
+
+    # Remove current year if not done yet
+    current_year = max(end_of_year_fronts)
+    if current_year == min(walk_updates(FUTURE_GOALS), key=UpdateInfo.get_date).date.year:
+        click.echo(f"Year {current_year} is finished - The minimum-skill-front cannot be made")
+        end_of_year_fronts.pop(current_year)
+
     click.echo("Update minimum skill front for all completed years:")
     click.echo("--------------------------------------------------")
-    for year in range(2001, 2027):
+    for year, (update, skillfront) in end_of_year_fronts.items():
         click.echo(f"- Update end-of-year skill front of year {year}.")
-        ...
+        with open(COMPLETED_FOLDERS[year].joinpath('minimum-skill-front.md'), 'w') as filewrapper:
+            filewrapper.writelines(minimum_skill_front_markdown_end_of_year(update, skillfront))
 
 
 # ============================================================================================================================ #
 # Public - Helper function                                                                                                     #
 # ============================================================================================================================ #
+def minimum_skill_front_markdown_end_of_year(update: UpdateInfo, skillfront: MinimumStates) -> list[str]:
+    return [
+        f'# Minimum skill front: End of {update.date.year}\n\n',
+        *stats_menu_markdown({skill: level for skill, (level, _) in skillfront.items()}),
+        "\n",
+        *requirement_reasons_markdown(skillfront),
+        "\n",
+        f"*Last updated: {datetime.datetime.now():%d %B %Y - %H:%M:%S}*\n"
+    ]
+
+
 def minimum_skill_front_markdown(update: UpdateInfo, skillfront: MinimumStates) -> list[str]:
     return [
         f'# Minimum skill front: {update.name}\n\n',
@@ -113,7 +136,7 @@ def minimum_skill_front_markdown(update: UpdateInfo, skillfront: MinimumStates) 
 
 def stats_menu_markdown(levels: dict[Skill, int]) -> list[str]:
     """Generate a list of lines that shows the given level overview in markdown files."""
-    n_rows_maximum = math.ceil(len(levels) / 3)
+    n_rows_maximum = math.ceil(len(Skill) / 3)
     rows = [['', '', ''] for _ in range(n_rows_maximum)]
 
     # Insert icons and levels in rows
