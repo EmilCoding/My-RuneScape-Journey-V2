@@ -47,4 +47,4 @@
 - ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 99 - *Having a dragon as a pet*
 
 
-*Last updated: 03 August 2026 - 13:04:29*
+*Last updated: 03 August 2026 - 14:20:47*

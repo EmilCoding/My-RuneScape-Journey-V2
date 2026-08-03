@@ -116,14 +116,7 @@ def get_official_overview() -> LevelOverview:
     overview = LevelOverview(levels, xp)
     assert overview.get_total_level() == total_level, f"Total level does not match API - {overview.get_total_level() - total_level}"
     assert overview.get_total_xp() == total_xp, f"Total XP does not match API - {overview.get_total_xp()} vs. {total_xp}"
-
-    # TODO: Replace if statement with assertion when bug is fixed
-    # There is apparently a bug in the API yielding a combat level of 120 when it should have been 119.
-    # assert overview.get_combat_level() == combat_level, f"Combat level does not match API - {overview.get_combat_level()} vs. {combat_level}"
-    if abs(overview.get_combat_level() - combat_level) == 1:
-        import warnings  # type: ignore
-        import colorama  # type: ignore
-        warnings.warn(colorama.Fore.MAGENTA + "There is still a rounding error in the combat level" + colorama.Fore.RESET)
+    assert overview.get_combat_level() == combat_level, f"Combat level does not match API - {overview.get_combat_level()} vs. {combat_level}"
 
     return overview
 
@@ -145,6 +138,7 @@ def reduce_overview_to_date(overview: LevelOverview, date: datetime.date) -> Lev
 
 if __name__ == '__main__':
     from rshisttools.dates import CURRENT_INGAME_DATE
+    from rshisttools.skills import COMBAT_SKILLS
     official_overview = get_official_overview()
     reduced_overview = reduce_overview_to_date(official_overview, CURRENT_INGAME_DATE)
 
@@ -152,6 +146,7 @@ if __name__ == '__main__':
     print(f"- Combat level is: {official_overview.get_combat_level()}")
     print(f"- Total level is: {(official_total := official_overview.get_total_level())}")
     print(f"- XP: {official_overview.get_total_xp()}")
+    print()
 
     print("My unofficial levels:")
     print(f"- Combat level is: {reduced_overview.get_combat_level()}")
@@ -160,3 +155,8 @@ if __name__ == '__main__':
     print()
 
     print(f"I have to subtract {official_total - unofficial_total} from my official total level to get my unofficial total level.")
+    print()
+
+    print("Combat skill levels:")
+    for skill in COMBAT_SKILLS:
+        print(f"- {skill}: {official_overview.levels[skill]}")

@@ -60,7 +60,17 @@ MEMBER_SKILLS = {
     Skill.INVENTION,
 }
 FREE_TO_PLAY_SKILLS = set(Skill) - MEMBER_SKILLS
-
+COMBAT_SKILLS = {
+    Skill.ATTACK,
+    Skill.STRENGTH,
+    Skill.DEFENCE,
+    Skill.RANGED,
+    Skill.PRAYER,
+    Skill.MAGIC,
+    Skill.CONSTITUTION,
+    Skill.SUMMONING,
+    Skill.NECROMANCY,
+}
 
 # Load the skill icons and their placement in the skill menu
 with open(TABLE_FOLDER.joinpath('skill_icons.json')) as filewrapper:
