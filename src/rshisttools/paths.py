@@ -18,6 +18,7 @@ TABLE_FOLDER = ROOT.joinpath('tables')
 
 # Key repository files referenced by the package.
 README = ROOT.joinpath('README.md')
+CURRENT_SKILL_FRONT = ROOT.joinpath('minimum-skill-front.md')
 UPDATE_OVERVIEW = ROOT.joinpath('overview.json')
 DAY_OF_RELEASE_FILE = COMPLETED_GOALS.joinpath('RuneScape Classic', '2001', '2001.01.04 - Day of release.md')
 
