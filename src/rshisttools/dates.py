@@ -7,6 +7,10 @@ Last updates: 3 August 2026.
 import datetime
 from typing import Literal
 from rshisttools.skills import Skill
+from rshisttools.walk import current_ingame_date
+
+
+CURRENT_INGAME_DATE = current_ingame_date()
 
 
 # Important dates
