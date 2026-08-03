@@ -21,10 +21,14 @@ class DateRange(NamedTuple):
     start: datetime.date
     end: datetime.date
 
+    def ___str__(self) -> str:
+        assert self.start <= self.end, "Start must come before end"
+        return "DateRange({:%d %B %Y}, {:%d %B %Y})".format(self.start, self.end)
+
     def __repr__(self) -> str:
         """Return a human-readable representation of the date range."""
         assert self.start <= self.end, "Start must come before end"
-        return "DateRange({:%d %B %Y}, {:%d %B %Y})".format(self.start, self.end)
+        return "({:%d %B %Y} -- {:%d %B %Y})".format(self.start, self.end)
 
 
 class WalkOptions(TypedDict):

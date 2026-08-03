@@ -57,6 +57,10 @@ class LevelOverview:
         """Store the provided level and XP mappings."""
         self.xp = xp
         self.levels = levels
+        assert not (exclusive_disjunct := set(self.levels) ^ set(self.xp)), f"'xp' and 'level' does not have the same skills: {exclusive_disjunct}"
+
+    def __len__(self) -> int:
+        return len(self.levels)
 
     def get_total_level(self) -> int:
         """Return the sum of all current skill levels."""

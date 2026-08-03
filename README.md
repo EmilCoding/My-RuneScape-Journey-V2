@@ -8,7 +8,7 @@
 5. Check completed goals and move backlogged goals to [backlog.](./backlog.md)
 -->
 
-- [Current date](./2008.01.15%20-%20Update%20Summoning%21.md): 15 January 2008 - 22 January 2008.
+- [Current date](./2008.01.15%20-%20Update%20Summoning%21.md): (15 January 2008 -- 22 January 2008).
 - [Current version](#versions): RuneScape 2
 - [Current age](#age): Fifth age
 - [Era](#eras): Post-split
@@ -44,8 +44,6 @@ This repository documents the journey of my RuneScape 3 account throughout the a
 | ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 | ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) 92 | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 81 |
 | ![Runecrafting-icon](https://runescape.wiki/images/Runecrafting-icon.png?efa59) 75 | ![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5) 92 | ![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230) 86 |
 | ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 74 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 58 |
-
-**Total level**: 2070.
 <!-- Current skills end -->
 
 
@@ -183,3 +181,5 @@ The same rules apply to the [Trimmed Completionist Cape achievement](https://run
 ## Sources
 
 The main source material is the RuneScape Wiki's list of [Game Updates](https://runescape.wiki/w/Game_updates).
+
+*Last updates: 03 August 2026 - 09:53:31*

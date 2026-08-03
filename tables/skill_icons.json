@@ -1,0 +1,176 @@
+[
+    {
+        "skill": "Attack",
+        "column": 1,
+        "row": 1,
+        "icon": "![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b)"
+    },
+    {
+        "skill": "Strength",
+        "column": 1,
+        "row": 2,
+        "icon": "![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac)"
+    },
+    {
+        "skill": "Defence",
+        "column": 1,
+        "row": 3,
+        "icon": "![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986)"
+    },
+    {
+        "skill": "Ranged",
+        "column": 1,
+        "row": 4,
+        "icon": "![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa)"
+    },
+    {
+        "skill": "Prayer",
+        "column": 1,
+        "row": 5,
+        "icon": "![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9)"
+    },
+    {
+        "skill": "Magic",
+        "column": 1,
+        "row": 6,
+        "icon": "![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d)"
+    },
+    {
+        "skill": "Runecrafting",
+        "column": 1,
+        "row": 7,
+        "icon": "![Runecrafting-icon](https://runescape.wiki/images/Runecrafting-icon.png?efa59)"
+    },
+    {
+        "skill": "Construction",
+        "column": 1,
+        "row": 8,
+        "icon": "![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534)"
+    },
+    {
+        "skill": "Dungeoneering",
+        "column": 1,
+        "row": 9,
+        "icon": "![Dungeoneering-icon](https://runescape.wiki/images/Dungeoneering-icon.png?ed8da)"
+    },
+    {
+        "skill": "Archaeology",
+        "column": 1,
+        "row": 10,
+        "icon": "![Archaeology-icon](https://runescape.wiki/images/Archaeology-icon.png?48b2f)"
+    },
+    {
+        "skill": "Constitution",
+        "column": 2,
+        "row": 1,
+        "icon": "![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a)"
+    },
+    {
+        "skill": "Agility",
+        "column": 2,
+        "row": 2,
+        "icon": "![Agility-icon](https://runescape.wiki/images/Agility-icon.png?9a56e)"
+    },
+    {
+        "skill": "Herblore",
+        "column": 2,
+        "row": 3,
+        "icon": "![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135)"
+    },
+    {
+        "skill": "Thieving",
+        "column": 2,
+        "row": 4,
+        "icon": "![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2)"
+    },
+    {
+        "skill": "Crafting",
+        "column": 2,
+        "row": 5,
+        "icon": "![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a)"
+    },
+    {
+        "skill": "Fletching",
+        "column": 2,
+        "row": 6,
+        "icon": "![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d)"
+    },
+    {
+        "skill": "Slayer",
+        "column": 2,
+        "row": 7,
+        "icon": "![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5)"
+    },
+    {
+        "skill": "Hunter",
+        "column": 2,
+        "row": 8,
+        "icon": "![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188)"
+    },
+    {
+        "skill": "Divination",
+        "column": 2,
+        "row": 9,
+        "icon": "![Divination-icon](https://runescape.wiki/images/Divination-icon.png?c19b9)"
+    },
+    {
+        "skill": "Necromancy",
+        "column": 2,
+        "row": 10,
+        "icon": "![Necromancy-icon](https://runescape.wiki/images/Necromancy-icon.png?f826b) "
+    },
+    {
+        "skill": "Mining",
+        "column": 3,
+        "row": 1,
+        "icon": "![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb)"
+    },
+    {
+        "skill": "Smithing",
+        "column": 3,
+        "row": 2,
+        "icon": "![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94)"
+    },
+    {
+        "skill": "Fishing",
+        "column": 3,
+        "row": 3,
+        "icon": "![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c)"
+    },
+    {
+        "skill": "Cooking",
+        "column": 3,
+        "row": 4,
+        "icon": "![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812)"
+    },
+    {
+        "skill": "Firemaking",
+        "column": 3,
+        "row": 5,
+        "icon": "![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80)"
+    },
+    {
+        "skill": "Woodcutting",
+        "column": 3,
+        "row": 6,
+        "icon": "![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049)"
+    },
+    {
+        "skill": "Farming",
+        "column": 3,
+        "row": 7,
+        "icon": "![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230)"
+    },
+    {
+        "skill": "Summoning",
+        "column": 3,
+        "row": 8,
+        "icon": "![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d)"
+    },
+    {
+        "skill": "Invention",
+        "column": 3,
+        "row": 9,
+        "icon": "![Invention-icon](https://runescape.wiki/images/Invention-icon.png?ce4a7)"
+    }
+]

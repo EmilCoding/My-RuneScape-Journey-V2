@@ -2,6 +2,9 @@
 Module containing the different skills
 """
 import enum
+import json
+from typing import NamedTuple
+from rshisttools.paths import TABLE_FOLDER
 
 
 class Skill(enum.StrEnum):
@@ -36,6 +39,12 @@ class Skill(enum.StrEnum):
     INVENTION = 'Invention'
 
 
+class IconInfo(NamedTuple):
+    row: int
+    column: int
+    icon: str
+
+
 MEMBER_SKILLS = {
     Skill.CONSTRUCTION,
     Skill.ARCHAEOLOGY,
@@ -51,6 +60,14 @@ MEMBER_SKILLS = {
     Skill.INVENTION,
 }
 FREE_TO_PLAY_SKILLS = set(Skill) - MEMBER_SKILLS
+
+
+# Load the skill icons and their placement in the skill menu
+with open(TABLE_FOLDER.joinpath('skill_icons.json')) as filewrapper:
+    SKILL_ICONS = {
+        Skill(info['skill']): IconInfo(row=info['row'], column=info['column'], icon=info['icon'])
+        for info in json.load(filewrapper)
+    }
 
 
 if __name__ == '__main__':
