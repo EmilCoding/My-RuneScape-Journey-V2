@@ -4,12 +4,13 @@ import click
 import datetime
 import urllib.parse
 
-from rshisttools.paths import ROOT, README
-from rshisttools.skills import SKILL_ICONS
+from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT
+from rshisttools.skills import Skill, SKILL_ICONS
 from rshisttools.runemetrics_api import LevelOverview, get_ingame_overview
 from rshisttools.dates import CURRENT_INGAME_DATE, max_total_level
 from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window
 
+from rshisttools.skillfront import MinimumStates, skill_front_history
 
 # Regex patterns
 CURRENT_DATE_PATTERN = re.compile(r'- \[Current date\]\(.*\): .*')
@@ -75,8 +76,11 @@ def update_readme() -> None:
 @main.command
 def update_current_skill_front() -> None:
     """Update the current skill front in the 'minimum-skill-front.md' file in repository root."""
+    *_, (update, skillfront) = skill_front_history(CURRENT_INGAME_DATE)
+
     click.echo("Update ~/minimum-skill-front.md")
-    ...
+    with open(CURRENT_SKILL_FRONT, 'w') as filewrapper:
+        filewrapper.writelines(minimum_skill_front_markdown(update, skillfront))
 
 
 @main.command
@@ -96,14 +100,25 @@ def end_of_year_skill_front() -> None:
 # ============================================================================================================================ #
 # Public - Helper function                                                                                                     #
 # ============================================================================================================================ #
-def stats_menu_markdown(overview: LevelOverview) -> list[str]:
+def minimum_skill_front_markdown(update: UpdateInfo, skillfront: MinimumStates) -> list[str]:
+    return [
+        f'# Minimum skill front: {update.name}\n\n',
+        *stats_menu_markdown({skill: level for skill, (level, _) in skillfront.items()}),
+        "\n",
+        *requirement_reasons_markdown(skillfront),
+        "\n",
+        f"*Last updated: {datetime.datetime.now():%d %B %Y - %H:%M:%S}*\n"
+    ]
+
+
+def stats_menu_markdown(levels: dict[Skill, int]) -> list[str]:
     """Generate a list of lines that shows the given level overview in markdown files."""
-    n_rows_maximum = math.ceil(len(overview) / 3)
+    n_rows_maximum = math.ceil(len(levels) / 3)
     rows = [['', '', ''] for _ in range(n_rows_maximum)]
 
     # Insert icons and levels in rows
     for skill, (i, j, icon) in SKILL_ICONS.items():
-        if level := overview.levels.get(skill, None):
+        if level := levels.get(skill, None):
             rows[i - 1][j - 1] = f"{icon} {level}"
 
     # Remove empty rows in the bottom on overview - Stop when first non-reducdant line is hit.
@@ -117,6 +132,18 @@ def stats_menu_markdown(overview: LevelOverview) -> list[str]:
         '|     |     |     |\n',
         '| --- | --- | --- |\n',
         *(f"| {col1} | {col2} | {col3} |\n" for (col1, col2, col3) in rows),
+    ]
+
+
+def requirement_reasons_markdown(front: MinimumStates) -> list[str]:
+    return [
+        '## Goals\n\n',
+        '### Column 1\n\n',
+        *_requirement_markdown_single_column(1, front),
+        '### Column 2\n\n',
+        *_requirement_markdown_single_column(2, front),
+        '### Column 3\n\n',
+        *_requirement_markdown_single_column(3, front),
     ]
 
 
@@ -174,7 +201,7 @@ def _insert_states_in_readme(lines: list[str], overview: LevelOverview) -> list[
 
     # Insert state menu
     before, after = lines[:start + 1], lines[end:]
-    state_menu_lines = stats_menu_markdown(overview)
+    state_menu_lines = stats_menu_markdown(overview.levels)
 
     return before + state_menu_lines + after
 
@@ -188,6 +215,15 @@ def _set_last_updates_line(lines: list[str]) -> None:
             line_index = i
     assert line_index is not None, "Last updated line was not found"
     lines[line_index] = f"*Last updates: {datetime.datetime.now():%d %B %Y - %H:%M:%S}*\n"
+
+
+def _requirement_markdown_single_column(column: int, front: MinimumStates) -> list[str]:
+    lines = {}
+    for skill, (i, j, icon) in SKILL_ICONS.items():
+        if j == column and skill in front:
+            level, reason = front[skill]
+            lines[i] = f"- {icon} {level}" + (f" - *{reason}*" if reason else "") + "\n"
+    return list(lines.values()) + ["\n", ]
 
 
 if __name__ == '__main__':
