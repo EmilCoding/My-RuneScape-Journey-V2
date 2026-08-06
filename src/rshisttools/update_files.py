@@ -10,11 +10,12 @@ import re
 import json
 import pathlib
 import datetime
-import urllib.parse
+
 
 from rshisttools.walk import get_updates
 from rshisttools.webscraping import UpdateEntry
 from rshisttools.paths import FUTURE_GOALS, RAW_UPDATES_TABLE_FILE, TEMPLATE_FILE
+from rshisttools.paths import ROOT  # TODO: Remove when bug is fixed
 
 
 HEADER_LINE_PATTERN = re.compile("# <update-name> - <date>")
@@ -39,15 +40,14 @@ def make_missing_update_files() -> None:
         updates = map(UpdateEntry, json.load(filewrapper))  # type: ignore[arg-type]
 
     for update in updates:
-        name = urllib.parse.quote(update['name'])
+        name = update['name'].replace(':', ' ')
         link = update['href']
         date = datetime.date.fromisoformat(update['isodatestring'])
 
         if date <= last_update_date_in_future_folder:
             continue  # Years have already been completed
 
-        filepath, lines = make_update_file(name, link, date, get_folderpath(date.year))
-
+        filepath, lines = make_update_file(name, link, date, get_folderpath(date.year))        
         with open(filepath, 'w') as filewrapper:
             filewrapper.writelines(lines)
 
@@ -105,7 +105,7 @@ def make_update_file(
     datestring = (lambda x: x[1:] if x[0] == '0' else x)(f"{date:%d %B &Y}")
 
     # Generate file name
-    filepath = folderpath.joinpath(f"{date:%Y.%m.%d} - {name}")
+    filepath = folderpath.joinpath(f"{date:%Y.%m.%d} - {name}.md")
 
     # Find and replace lines
     set_header, set_update = False, False
