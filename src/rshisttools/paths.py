@@ -15,6 +15,7 @@ FUTURE_GOALS = ROOT.joinpath('future goals')
 COMPLETED_GOALS = ROOT.joinpath('completed goals')
 PARTIALLY_COMPLETED = ROOT.joinpath('partially completed')
 TABLE_FOLDER = ROOT.joinpath('tables')
+GRAPHICS_FOLDER = ROOT.joinpath('graphics')
 
 # Key repository files referenced by the package.
 README = ROOT.joinpath('README.md')

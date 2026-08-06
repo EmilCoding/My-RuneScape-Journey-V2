@@ -30,20 +30,20 @@ This repository documents the journey of my RuneScape 3 account throughout the a
 
 ## Account info
 
-- Combat level: 127.
-- Total level: 2073 / 2376.
+- Combat level: 129.
+- Total level: 2085 / 2376.
 
 <!-- Current skills start -->
 |     |     |     |
 | --- | --- | --- |
 | ![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b) 85 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) 93 | ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb) 85 |
 | ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 | ![Agility-icon](https://runescape.wiki/images/Agility-icon.png?9a56e) 87 | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
-| ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 86 | ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135) 81 | ![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c) 82 |
+| ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 87 | ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135) 81 | ![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c) 82 |
 | ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 86 | ![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2) 91 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
 | ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 87 | ![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a) 90 | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 86 |
 | ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 | ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) 92 | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 81 |
 | ![Runecrafting-icon](https://runescape.wiki/images/Runecrafting-icon.png?efa59) 75 | ![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5) 92 | ![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230) 86 |
-| ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 74 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 61 |
+| ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 74 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 72 |
 <!-- Current skills end -->
 
 
@@ -182,4 +182,4 @@ The same rules apply to the [Trimmed Completionist Cape achievement](https://run
 
 The main source material is the RuneScape Wiki's list of [Game Updates](https://runescape.wiki/w/Game_updates).
 
-*Last updates: 03 August 2026 - 14:20:47*
+*Last updates: 04 August 2026 - 13:45:48*
