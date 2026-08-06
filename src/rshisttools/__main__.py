@@ -21,7 +21,7 @@ TOTAL_LEVEL_PATTERN = re.compile(r'- Total level\:.*')
 COMBAT_LEVEL_PATTERN = re.compile(r'- Combat level\:.*')
 STATES_MENU_START_PATTERN = re.compile('<!-- Current skills start -->')
 STATES_MENU_END_PATTERN = re.compile('<!-- Current skills end -->')
-LAST_UPDATES_LINE_PATTERN = re.compile(r'\*Last updates: (.*)\*')
+LAST_UPDATES_LINE_PATTERN = re.compile(r'\*Last updated: (.*)\*')
 
 
 @click.group
@@ -61,7 +61,7 @@ def update_readme() -> None:
     current_update, window = get_current_update_window()
 
     click.echo("Read content of ~/README.md file")
-    with open(paths.README, 'r') as filewrapper:
+    with open(paths.README, 'r', encoding='utf-8') as filewrapper:
         lines = filewrapper.readlines()
 
     click.echo("Update lines of ~/README.md file")
@@ -72,7 +72,7 @@ def update_readme() -> None:
     _set_last_updates_line(lines)
 
     click.echo("Save changes to ~/README.md")
-    with open(paths.README, 'w') as filewrapper:
+    with open(paths.README, 'w', encoding='utf-8') as filewrapper:
         filewrapper.writelines(lines)
 
 
@@ -278,7 +278,7 @@ def _set_last_updates_line(lines: list[str]) -> None:
             assert line_index is None, "line_index is already set"
             line_index = i
     assert line_index is not None, "Last updated line was not found"
-    lines[line_index] = f"*Last updates: {datetime.datetime.now():%d %B %Y - %H:%M:%S}*\n"
+    lines[line_index] = f"*Last updates: {datetime.datetime.now():%d %B %Y}*\n"
 
 
 def _requirement_markdown_single_column(column: int, front: MinimumStates) -> list[str]:
