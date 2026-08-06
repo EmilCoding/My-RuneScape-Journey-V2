@@ -3,3 +3,4 @@ numpy
 matplotlib
 dotenv
 requests
+beautifulsoup4

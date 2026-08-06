@@ -4,6 +4,8 @@ the release dates and maximum levels of the skills.
 
 Last updates: 3 August 2026.
 """
+import re
+import calendar
 import datetime
 from typing import Literal
 from rshisttools.skills import Skill
@@ -11,6 +13,8 @@ from rshisttools.walk import current_ingame_date
 
 
 CURRENT_INGAME_DATE = current_ingame_date()
+DATE_PATTERN = re.compile(r"^(\d{1,2})\s*(\w*)\s*(\d{4})$")
+MONTH_LOOKUP_TABLE = {name: i for i, name in enumerate(calendar.month_name) if name}
 
 
 # Important dates
@@ -129,6 +133,16 @@ def max_level(skill: Skill, date: datetime.date) -> Literal[120, 110, 99, 0]:
     if (__date := LEVEL_110_SKILL_DATES.get(skill, None)) and date >= __date:
         return 110
     return 99
+
+
+def date_from_string(string: str) -> datetime.date:
+    if not (__match := DATE_PATTERN.match(string)):
+        raise ValueError(f'Cannot interpret {string} as date')
+    return datetime.date(
+        int(__match.group(3)),
+        MONTH_LOOKUP_TABLE[__match.group(2)],
+        int(__match.group(1))
+    )
 
 
 if __name__ == '__main__':

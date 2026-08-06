@@ -22,7 +22,7 @@ README = ROOT.joinpath('README.md')
 CURRENT_SKILL_FRONT = ROOT.joinpath('minimum-skill-front.md')
 UPDATE_OVERVIEW = ROOT.joinpath('overview.json')
 DAY_OF_RELEASE_FILE = COMPLETED_GOALS.joinpath('RuneScape Classic', '2001', '2001.01.04 - Day of release.md')
-
+RAW_UPDATES_FILE = TABLE_FOLDER.joinpath('raw-updates-fetched-from-wiki.json')
 
 # Completed content folders grouped by year for quick access.
 COMPLETED_FOLDERS = {
