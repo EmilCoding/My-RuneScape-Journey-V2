@@ -182,4 +182,4 @@ The same rules apply to the [Trimmed Completionist Cape achievement](https://run
 
 The main source material is the RuneScape Wiki's list of [Game Updates](https://runescape.wiki/w/Game_updates).
 
-*Last updates: 04 August 2026 - 13:45:48*
+*Last updates: 06 August 2026 - 10:18:28*

@@ -4,13 +4,16 @@ import click
 import datetime
 import urllib.parse
 
-from rshisttools.paths import ROOT, README, CURRENT_SKILL_FRONT, FUTURE_GOALS, COMPLETED_FOLDERS, COMPLETED_GOALS
+import rshisttools.paths as paths
+import rshisttools.dates as dates
+
+from rshisttools.webscraping import scrape_and_save_updates_to_table
+from rshisttools.update_files import make_missing_update_files
 from rshisttools.skills import Skill, SKILL_ICONS
+from rshisttools.skillfront import MinimumStates, skill_front_history
 from rshisttools.runemetrics_api import LevelOverview, get_ingame_overview
-from rshisttools.dates import CURRENT_INGAME_DATE, RUNESCAPE_2_RELEASE_DAY, max_total_level
 from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window, walk_updates
 
-from rshisttools.skillfront import MinimumStates, skill_front_history
 
 # Regex patterns
 CURRENT_DATE_PATTERN = re.compile(r'- \[Current date\]\(.*\): .*')
@@ -40,6 +43,7 @@ def update_public(ctx) -> None:
     - Update end of year minimum-skill-fronts
     """
     ctx.invoke(update_readme)
+    ctx.invoke(update_goals_folders)
     ctx.invoke(update_current_skill_front)
 
 
@@ -52,12 +56,12 @@ def update_readme() -> None:
     3) Update current combat level
     4) Update stats section
     """
-    ingame_date = CURRENT_INGAME_DATE
+    ingame_date = dates.CURRENT_INGAME_DATE
     level_overview = get_ingame_overview(ingame_date)
     current_update, window = get_current_update_window()
 
     click.echo("Read content of ~/README.md file")
-    with open(README, 'r') as filewrapper:
+    with open(paths.README, 'r') as filewrapper:
         lines = filewrapper.readlines()
 
     click.echo("Update lines of ~/README.md file")
@@ -68,8 +72,14 @@ def update_readme() -> None:
     _set_last_updates_line(lines)
 
     click.echo("Save changes to ~/README.md")
-    with open(README, 'w') as filewrapper:
+    with open(paths.README, 'w') as filewrapper:
         filewrapper.writelines(lines)
+
+
+@main.command
+def update_goals_folders() -> None:
+    scrape_and_save_updates_to_table()
+    make_missing_update_files()
 
 
 @main.command()
@@ -83,10 +93,10 @@ def update_skill_fronts(ctx) -> None:
 @main.command
 def update_current_skill_front() -> None:
     """Update the current skill front in the 'minimum-skill-front.md' file in repository root."""
-    *_, (update, skillfront) = skill_front_history(CURRENT_INGAME_DATE)
+    *_, (update, skillfront) = skill_front_history(dates.CURRENT_INGAME_DATE)
 
     click.echo("Update ~/minimum-skill-front.md")
-    with open(CURRENT_SKILL_FRONT, 'w') as filewrapper:
+    with open(paths.CURRENT_SKILL_FRONT, 'w') as filewrapper:
         filewrapper.writelines(minimum_skill_front_markdown(update, skillfront))
 
 
@@ -99,12 +109,12 @@ def end_of_year_skill_front() -> None:
     """
     click.echo("Determine skill front history and extract them into years ")
     end_of_year_fronts: dict[int, tuple[UpdateInfo, MinimumStates]] = {}
-    for update, skillfront in skill_front_history(CURRENT_INGAME_DATE):
+    for update, skillfront in skill_front_history(dates.CURRENT_INGAME_DATE):
         end_of_year_fronts[update.date.year] = (update, skillfront)
 
     # Remove current year if not done yet
     current_year = max(end_of_year_fronts)
-    if current_year == min(walk_updates(FUTURE_GOALS), key=UpdateInfo.get_date).date.year:
+    if current_year == min(walk_updates(paths.FUTURE_GOALS), key=UpdateInfo.get_date).date.year:
         click.echo(f"Year {current_year} is finished - The minimum-skill-front cannot be made")
         end_of_year_fronts.pop(current_year)
 
@@ -112,20 +122,20 @@ def end_of_year_skill_front() -> None:
     click.echo("--------------------------------------------------")
     for year, (update, skillfront) in end_of_year_fronts.items():
         click.echo(f"- Update end-of-year skill front of year {year}.")
-        with open(COMPLETED_FOLDERS[year].joinpath('minimum-skill-front.md'), 'w') as filewrapper:
+        with open(paths.COMPLETED_FOLDERS[year].joinpath('minimum-skill-front.md'), 'w') as filewrapper:
             filewrapper.writelines(minimum_skill_front_markdown_end_of_year(update, skillfront))
 
 
 @main.command
 def end_of_version_skill_front() -> None:
     """Write and end-of-version skill fronts for RuneScape classic, and later RuneScape 2"""
-    history = skill_front_history(CURRENT_INGAME_DATE)
+    history = skill_front_history(dates.CURRENT_INGAME_DATE)
 
     # Find last update in RuneScape Classic
-    *_, (_, skillfront) = filter(lambda pair: pair[0].date < RUNESCAPE_2_RELEASE_DAY, history)
+    *_, (_, skillfront) = filter(lambda pair: pair[0].date < dates.RUNESCAPE_2_RELEASE_DAY, history)
 
     click.echo("Update minimum skill front for RuneScape Classic")
-    with open(COMPLETED_GOALS.joinpath('RuneScape Classic', 'minimum-skill-front.md'), 'w') as filewrapper:
+    with open(paths.COMPLETED_GOALS.joinpath('RuneScape Classic', 'minimum-skill-front.md'), 'w') as filewrapper:
         filewrapper.writelines(minimum_skill_front_markdown_end_of_version(skillfront))
 
 
@@ -207,7 +217,7 @@ def requirement_reasons_markdown(front: MinimumStates) -> list[str]:
 def _update_current_total_level_in_readme(lines: list[str], overview: LevelOverview) -> None:
     """Find and update the 'total-level' line in the README file stored in line."""
     total_level = overview.get_total_level()
-    maximum_total_level = max_total_level(CURRENT_INGAME_DATE)
+    maximum_total_level = dates.max_total_level(dates.CURRENT_INGAME_DATE)
 
     for i, line in enumerate(lines):
         if TOTAL_LEVEL_PATTERN.match(line):
@@ -230,7 +240,7 @@ def _update_combat_level_in_readme(readme_lines: list[str], level_overview: Leve
 
 def _update_current_update_line_in_readme(lines: list[str], update: UpdateInfo, update_window: DateRange) -> None:
     """Update the line in the README that points to the update"""
-    linkstring = f"./{urllib.parse.quote(update.path.relative_to(ROOT).as_posix())}"
+    linkstring = f"./{urllib.parse.quote(update.path.relative_to(paths.ROOT).as_posix())}"
 
     for i, line in enumerate(lines):
         if CURRENT_DATE_PATTERN.match(line):
