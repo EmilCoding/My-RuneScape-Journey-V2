@@ -37,7 +37,11 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 
 ## Cool graphs
 
-*Coming soon...*
+|    |    |
+|---------------------------|---------------------------|
+| ![Updates per year](./graphics/number-of-updates-per-year.png) | ![Total level evolition](./graphics/total_level_evolution.png) |
+| Frequency of updates per. year | Evolution of maximum total level and total level of minimum-skill-front | 
+
 
 ## Date information
 

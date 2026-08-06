@@ -56,12 +56,12 @@ def skill_front_history(enddate: datetime.date, /, with_optional: bool = False) 
     The history starts from the day-of-release state and then records the
     minimum requirements after every relevant update in chronological order.
     """
-    current_front = INITIAL_LEVELS.copy()
+    current_front = INITIAL_LEVELS
     minimum_skill_front_history = [(DAY_OF_RELEASE_UPDATEINFO, current_front)]
 
     for update, requirements in sorted(get_all_skill_updates(with_optional, end=enddate), key=lambda pair: pair[0].date):
-        update_minimum_states(current_front, requirements)
-        minimum_skill_front_history.append((update, current_front.copy()))
+        current_front = update_minimum_states(current_front, requirements)
+        minimum_skill_front_history.append((update, current_front))
 
     return minimum_skill_front_history
 
@@ -105,12 +105,13 @@ def fetch_skill_requirements(update: UpdateInfo, with_optional: bool = False) ->
     return requirements
 
 
-def update_minimum_states(front: dict[Skill, Requirement], requirements: dict[Skill, Requirement]) -> None:
+def update_minimum_states(front: MinimumStates, requirements: dict[Skill, Requirement]) -> MinimumStates:
     """Update a skill front with the highest requirement seen for each skill."""
+    front = front.copy()
     for skill, (level, reason) in requirements.items():
         if skill not in front or level > front[skill].level:
             front[skill] = Requirement(level, reason)
-
+    return front
 
 if __name__ == '__main__':
     *_, (update, front) = skill_front_history(datetime.date.today())

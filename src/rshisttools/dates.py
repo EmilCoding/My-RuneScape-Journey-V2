@@ -58,7 +58,7 @@ SKILL_RELEASE_DAYS = {
     Skill.AGILITY: datetime.date(2002, 12, 12),
     Skill.RUNECRAFTING: datetime.date(2004, 3, 29),
     Skill.SLAYER: datetime.date(2005, 1, 26),
-    Skill.FARMING: datetime.date(2005, 6, 11),
+    Skill.FARMING: datetime.date(2005, 7, 11),
     Skill.CONSTRUCTION: datetime.date(2006, 5, 31),
     Skill.HUNTER: datetime.date(2006, 11, 21),
     Skill.SUMMONING: datetime.date(2008, 1, 15),
