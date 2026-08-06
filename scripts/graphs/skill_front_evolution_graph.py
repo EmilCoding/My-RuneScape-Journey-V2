@@ -56,8 +56,12 @@ for skill, date in dates.SKILL_RELEASE_DAYS.items():
         continue
     y = maximum_total_level_lookup[date]
     ax.text(date, y, skill, va='top', ha='left')
-    ax.plot([date, ], [y, ], 'x', color=SKILL_RELEASE_COLOUR)
-
+ax.plot(
+    [date for date in dates.SKILL_RELEASE_DAYS.values() if filterfunc(date)],
+    [maximum_total_level_lookup[date] for date in dates.SKILL_RELEASE_DAYS.values() if filterfunc(date)],
+    'x',
+    color=SKILL_RELEASE_COLOUR
+)
 
 
 ax.legend(loc='upper left')

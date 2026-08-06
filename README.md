@@ -124,4 +124,4 @@ Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and ques
 - I use the [Runemetrics API](https://runescape.wiki/w/Application_programming_interface#Runemetrics) to get my account's current state.
 
 
-*Last updates: 06 August 2026*
+*Last updated: 06 August 2026*

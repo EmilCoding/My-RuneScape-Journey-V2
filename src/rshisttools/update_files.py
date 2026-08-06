@@ -15,7 +15,6 @@ import datetime
 from rshisttools.walk import get_updates
 from rshisttools.webscraping import UpdateEntry
 from rshisttools.paths import FUTURE_GOALS, RAW_UPDATES_TABLE_FILE, TEMPLATE_FILE
-from rshisttools.paths import ROOT  # TODO: Remove when bug is fixed
 
 
 HEADER_LINE_PATTERN = re.compile("# <update-name> - <date>")
@@ -47,7 +46,7 @@ def make_missing_update_files() -> None:
         if date <= last_update_date_in_future_folder:
             continue  # Years have already been completed
 
-        filepath, lines = make_update_file(name, link, date, get_folderpath(date.year))        
+        filepath, lines = make_update_file(name, link, date, get_folderpath(date.year))
         with open(filepath, 'w') as filewrapper:
             filewrapper.writelines(lines)
 

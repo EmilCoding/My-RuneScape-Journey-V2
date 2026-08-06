@@ -113,6 +113,7 @@ def update_minimum_states(front: MinimumStates, requirements: dict[Skill, Requir
             front[skill] = Requirement(level, reason)
     return front
 
+
 if __name__ == '__main__':
     *_, (update, front) = skill_front_history(datetime.date.today())
     print("Skill front in the end of 2001.")
