@@ -68,6 +68,7 @@ def update_goals_folders() -> None:
 def update_graphs(ctx) -> None:
     ctx.invoke(plot_updates_histogram, save=True, no_show=True)
     ctx.invoke(plot_total_level_evolution, save=True, no_show=True)
+    ctx.invoke(plot_skill_distribution, save=True, no_show=True)
 
 
 @main.command
@@ -90,6 +91,19 @@ def plot_total_level_evolution(save: bool, no_show: bool) -> None:
     fig = graphs.total_level_evolution()
     if save:
         figpath = paths.GRAPHICS_FOLDER.joinpath("total_level_evolution.png")
+        fig.savefig(figpath)
+        print(f"Updates histogram has been saved as './{figpath.relative_to(paths.ROOT)}'")
+    if not no_show:
+        plt.show()
+
+
+@main.command
+@click.option('--save', is_flag=True, help='If flag is set, the plot is save')
+@click.option('--no-show', is_flag=True, help='If flag is set, the plot is not shown')
+def plot_skill_distribution(save: bool, no_show: bool) -> None:
+    fig = graphs.skill_distribution()
+    if save:
+        figpath = paths.GRAPHICS_FOLDER.joinpath("skill-distribution.png")
         fig.savefig(figpath)
         print(f"Updates histogram has been saved as './{figpath.relative_to(paths.ROOT)}'")
     if not no_show:

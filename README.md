@@ -18,7 +18,7 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 - [Backlog](./backlog.md) - This is the backlog. Here you can see which goals I have skipped for different reasons.
 - [Minimum skill front](./minimum-skill-front.md) - This lists the minimum stat requirements at the current point in time.
 - Combat level: 129.
-- Total level: 2085 / 2376.
+- Total level: 2088 / 2376.
 
 <!-- Current skills start -->
 |     |     |     |
@@ -27,10 +27,10 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 | ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 | ![Agility-icon](https://runescape.wiki/images/Agility-icon.png?9a56e) 87 | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
 | ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 87 | ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135) 81 | ![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c) 82 |
 | ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 86 | ![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2) 91 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
-| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 87 | ![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a) 90 | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 86 |
+| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 87 | ![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a) 90 | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 87 |
 | ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 | ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) 92 | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 81 |
 | ![Runecrafting-icon](https://runescape.wiki/images/Runecrafting-icon.png?efa59) 75 | ![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5) 92 | ![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230) 86 |
-| ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 74 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 72 |
+| ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 74 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 74 |
 <!-- Current skills end -->
 
 *Current levels normalized to the current in-game date.*
@@ -41,6 +41,8 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 |---------------------------|---------------------------|
 | ![Updates per year](./graphics/number-of-updates-per-year.png) | ![Total level evolition](./graphics/total_level_evolution.png) |
 | Frequency of updates per. year | Evolution of maximum total level and total level of minimum-skill-front | 
+| ![Skill distribution](./graphics/skill-distribution.png) | ... |
+| Distribution of my levels, the current minimum requirement and the maximum levels. | ... |
 
 
 ## Date information
@@ -124,4 +126,4 @@ Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and ques
 - I use the [Runemetrics API](https://runescape.wiki/w/Application_programming_interface#Runemetrics) to get my account's current state.
 
 
-*Last updated: 06 August 2026*
+*Last updated: 07 August 2026*

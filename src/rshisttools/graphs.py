@@ -7,14 +7,19 @@ import matplotlib.pyplot as plt
 import rshisttools.dates as dates
 
 from typing import Counter
+from rshisttools.runemetrics_api import get_ingame_overview
 from rshisttools.walk import get_updates, current_ingame_date
+from rshisttools.dates import max_level
 from rshisttools.skillfront import skill_front_history, total_level
 
 
 WEEKS_PER_YEAR = 52
-MAXIMUM_CURVE_COLOUR = "#FF0000"
-MINIMUM_CURVE_COLOUR = "#0000FF"
-SKILL_RELEASE_COLOUR = "#063A06"
+CURRENT_INGAME_DATE = current_ingame_date()
+FRONT_HISTORY = skill_front_history(CURRENT_INGAME_DATE)
+
+RED = "#FF0000"
+BLUE = "#0000FF"
+GREEN = "#0C6F0C"
 
 
 def updates_histogram():
@@ -63,8 +68,8 @@ def total_level_evolution():
 
     fig, ax = plt.subplots()
 
-    ax.plot(dates_array, maximum_total_level, color=MAXIMUM_CURVE_COLOUR, label='Maximum total level')
-    ax.plot(dates_array, minimum_total_level, color=MINIMUM_CURVE_COLOUR, label='Minimum total level')
+    ax.plot(dates_array, maximum_total_level, color=RED, label='Maximum total level')
+    ax.plot(dates_array, minimum_total_level, color=BLUE, label='Minimum total level')
     ax.set_ylim(0, 1.10 * maximum_total_level[-1])
 
     def filterfunc(date: datetime.date) -> bool:
@@ -77,7 +82,7 @@ def total_level_evolution():
         va='top',
         ha='left',
     )
-    ax.plot(dates.GAME_RELEASE_DAY, maximum_total_level[0], 'x', color=SKILL_RELEASE_COLOUR)
+    ax.plot(dates.GAME_RELEASE_DAY, maximum_total_level[0], 'x', color=GREEN)
     for skill, date in dates.SKILL_RELEASE_DAYS.items():
         if not filterfunc(date):
             continue
@@ -87,7 +92,7 @@ def total_level_evolution():
         [date for date in dates.SKILL_RELEASE_DAYS.values() if filterfunc(date)],
         [maximum_total_level_lookup[date] for date in dates.SKILL_RELEASE_DAYS.values() if filterfunc(date)],
         'x',
-        color=SKILL_RELEASE_COLOUR
+        color=GREEN
     )
 
     ax.legend(loc='upper left')
@@ -107,7 +112,34 @@ def total_level_evolution():
     return fig
 
 
+def skill_distribution():
+    *_, (_, skill_front) = FRONT_HISTORY
+    my_levels = get_ingame_overview(CURRENT_INGAME_DATE)
+
+    skills = list(my_levels.levels)
+    level_classes = {
+        'My levels': list(my_levels.levels.values()),
+        'Max level': [max_level(skill, CURRENT_INGAME_DATE) for skill in skills],
+        'Minimum skill front': [level for level, _ in skill_front.values()],
+    }
+
+    fig, ax = plt.subplots()
+
+    ax.bar(skills, level_classes['Max level'], color=RED, label='Max level')
+    ax.bar(skills, level_classes['My levels'], color=BLUE, label='My levels')
+    ax.bar(skills, level_classes['Minimum skill front'], color=GREEN, label='Minimum skill front')
+
+    ax.set_ylabel('Level')
+    ax.set_xticks(skills)
+    ax.set_xticklabels(labels=skills, rotation=45, size=10, ha='right')
+    ax.legend(bbox_to_anchor=(0.5, 1.10), loc='upper center', ncols=3)
+
+    fig.tight_layout()
+    return fig
+
+
 if __name__ == '__main__':
-    fig1 = updates_histogram()
-    fig2 = total_level_evolution()
+    # fig1 = updates_histogram()
+    # fig2 = total_level_evolution()
+    fig3 = skill_distribution()
     plt.show()
