@@ -138,7 +138,7 @@ Skill capes was released on the 18. August 2006 on [this](./partially%20complete
 - 99 Firemaking - *Required to wear firemaking cape*
 - 99 Woodcutting - *Required to wear woodcutting cape*
 - 99 Farming - *Required to wear farming cape*
-- 99 [Hunter](./partially%20completed/RuneScape%202/2006/2006.11.21%20-%20Update%20HUNTER%20SKILL!.md)
+- 99 [Hunter](./partially%20completed/RuneScape%202/2006/2006.11.21%20-%20Update%20HUNTER%20SKILL!.md) - *Required to wear hunter cape*
 
 ## Impossible goals
 

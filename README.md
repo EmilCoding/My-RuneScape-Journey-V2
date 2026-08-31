@@ -18,12 +18,12 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 - [Backlog](./backlog.md) - This is the backlog. Here you can see which goals I have skipped for different reasons.
 - [Minimum skill front](./minimum-skill-front.md) - This lists the minimum stat requirements at the current point in time.
 - Combat level: 129.
-- Total level: 2088 / 2376.
+- Total level: 2089 / 2376.
 
 <!-- Current skills start -->
 |     |     |     |
 | --- | --- | --- |
-| ![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b) 85 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) 93 | ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb) 85 |
+| ![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b) 86 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) 93 | ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb) 85 |
 | ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 | ![Agility-icon](https://runescape.wiki/images/Agility-icon.png?9a56e) 87 | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
 | ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 87 | ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135) 81 | ![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c) 82 |
 | ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 86 | ![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2) 91 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
@@ -126,4 +126,4 @@ Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and ques
 - I use the [Runemetrics API](https://runescape.wiki/w/Application_programming_interface#Runemetrics) to get my account's current state.
 
 
-*Last updated: 07 August 2026*
+*Last updated: 31 August 2026*
