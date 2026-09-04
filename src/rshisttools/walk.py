@@ -56,8 +56,18 @@ class UpdateInfo:
     def as_url(self) -> str:
         return f"./{urllib.parse.quote(self.path.relative_to(ROOT).as_posix())}"
 
+    def __lt__(self, other: UpdateInfo | datetime.date) -> bool:
+        if isinstance(other, UpdateInfo):
+            other = other.date
+        return self.date < other
 
-INCOMPLETE_GOALS_PATTERN = re.compile('^- [ ] (.*)$')
+    def __gt__(self, other: UpdateInfo | datetime.date) -> bool:
+            if isinstance(other, UpdateInfo):
+                other = other.date
+            return self.date > other
+
+
+INCOMPLETE_GOALS_PATTERN = re.compile(r'^\s*- \[ \] (.*)\n?$')
 UPDATE_FILENAME_PATTERN = re.compile(r'^(\d{4})\.(\d{2})\.(\d{2}) - (?:Update )?(.*)\.md$')
 
 
