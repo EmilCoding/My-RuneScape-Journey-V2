@@ -2,7 +2,6 @@
 
 Wouldn't it be nice if you should sort the tasks into categories like; f2p/p2p, drop, skill, boss, treasure-trails, etc.
 
-
 | Tag   | Explaination |
 | ---   | ------------ |
 | F2P   | If the goal can be completed by free-to-play players. |
@@ -29,6 +28,8 @@ Wouldn't it be nice if you should sort the tasks into categories like; f2p/p2p, 
 - I need to go through all already completed goals
 - New goals requires more work
 - Hard maintenace - I need to go through all goals if a new tag is added.
+
+**NOTE: I technically only need to tag non-completed goals.**
 
 
 ## Goals that I want to track
@@ -84,4 +85,5 @@ graph TD
     TCC[Trimmed Completionist cape]
     MCC[Master Completionist cape]
     CTCC[Master Trimmed Completionist cape]
+
 ```
