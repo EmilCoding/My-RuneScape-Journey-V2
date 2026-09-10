@@ -7,6 +7,7 @@
 | ![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230) | Brains | ? |
 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) | Ramsay | 6. January 2025 |
 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) | Morty | 13. March 2026 - 24. March 2026 |
+| ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) | Flo | 10. October 2026 |
  
 <!-- 
 Icons to fetch
@@ -22,7 +23,7 @@ Icons to fetch
 - ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135)
 - ![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2)
 - ![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a)
-- ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d)
+
 - ![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5)
 - ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb)
 - ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94)
