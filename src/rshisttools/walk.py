@@ -213,6 +213,10 @@ def _extract_updateinfo(filepath: pathlib.Path) -> None | UpdateInfo:
     return UpdateInfo(name, filepath, date)
 
 
+CURRENT_INGAME_DATE = current_ingame_date()
+"""Ingame date based on the file structure at "compile time"."""
+
+
 if __name__ == '__main__':
     update, window = get_current_update_window()
     *_, last_update = walk_updates(FUTURE_GOALS)
