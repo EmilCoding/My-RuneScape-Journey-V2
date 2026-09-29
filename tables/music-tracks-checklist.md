@@ -9,9 +9,14 @@
 | -- | ----- | ----------- | ------- | ---------------------------- |
 | 31 | Dangerous | This track unlocks somewhere in the Wilderness. | 15 March 2004 | Unlocked upon entering the Morytania Slayer Tower dungeon. |
 | 203 | Everywhere | This track unlocks to the south-west of Prifddinas. | 20 September 2004 | Don't know why it does not unlock. I probably have to wait until Prif. |
-| 248 | Castle Wars | This track unlocks during Castle Wars, fighting for Saradomin. | 13 December 2004 | Fuck minigames |
-| 380 | Pest Control | This track unlocks during Pest Control. | 18 April 2006 | Fuck minigames |
 
+## Minigames
+
+| 248 | Castle Wars | This track unlocks during Castle Wars, fighting for Saradomin. | 13 December 2004 |
+| 380 | Pest Control | This track unlocks during Pest Control. | 18 April 2006 |
+| 530 | Guthix's Hunter | This track unlocks during Fist of Guthix. | 9 April 2008 |
+| 565 | Stealing Creation | This track unlocks during Stealing Creation. | 11 November 2008 |
+| 575 | Soul Wars | This track unlocks during Soul Wars. | 10 February 2009 |
 
 ## Music tracks that I should unlocked, but I havn't
 
@@ -19,51 +24,10 @@
 | -- | ----- | ----------- | ------- |
 | 337 | Dagannoth Dawn | This track unlocks in Waterbirth Island Dungeon. | 7 November 2005 |
 
-
 ## Music tracks that are not released yet for me.
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 516 | Hot 'n' Bothered | This track unlocks during the quest 'As a First Resort'. | 29 January 2008 |
-| 517 | Shaping Up | This track unlocks during the quest 'As a First Resort'. | 29 January 2008 |
-| 518 | Spa Bizarre | This track unlocks during the quest 'As a First Resort'. | 29 January 2008 |
-| 519 | Brain Battle | This track unlocks on completion of The Great Brain Robbery. | 5 February 2008 |
-| 520 | Jungle Community | This track unlocks to the north of Tai Bwo Wannai Village. | 5 February 2008 |
-| 521 | Surok's Theme | This track unlocks on completion of What Lies Below. | 5 February 2008 |
-| 522 | Charmin' Farmin' | This track unlocks during Vinesweeper. | 19 February 2008 |
-| 523 | The Wrong Path | This track unlocks in the Chaos Tunnels. | 4 March 2008 |
-| 524 | A New Menace | This track unlocks during Kennith's Concerns. | 11 March 2008 |
-| 525 | Creepy | This track unlocks during Kennith's Concerns. | 11 March 2008 |
-| 526 | Exam Conditions | This track unlocks at the Stronghold of Player Safety. | 11 March 2008 |
-| 527 | Incarceration | This track unlocks at the Stronghold of Player Safety. | 11 March 2008 |
-| 528 | Safety in Numbers | This track unlocks at the Stronghold of Player Safety. | 11 March 2008 |
-| 529 | Bittersweet Bunny | This track unlocks in an Easter holiday event (2008 onwards). | 18 March 2008 |
-| 530 | Guthix's Hunter | This track unlocks during Fist of Guthix. | 9 April 2008 |
-| 531 | Waiting for the Hunt | This track unlocks in the Fist of Guthix waiting room. | 9 April 2008 |
-| 532 | Bloodbath | This track unlocks at the Blood altar. | 22 April 2008 |
-| 533 | Conspiracy: Part 1 | This track unlocks during Legacy of Seergaze. | 22 April 2008 |
-| 534 | Conspiracy: Part 2 | This track unlocks during Legacy of Seergaze | 22 April 2008 |
-| 535 | The Columbarium | This track unlocks during Legacy of Seergaze. | 22 April 2008 |
-| 536 | The Terrible Caverns | This track unlocks during Legacy of Seergaze. | 22 April 2008 |
-| 537 | The Terrible Tunnels | This track unlocks during Legacy of Seergaze. | 22 April 2008 |
-| 538 | Icy a Worried Gnome | This track unlocks during the Perils of Ice Mountain. | 7 May 2008 |
-| 539 | Icy Trouble Ahead | This track unlocks during the Perils of Ice Mountain. | 7 May 2008 |
-| 540 | Arma Gonna Get You | This track unlocks during TokTz-Ket-Dill. | 13 May 2008 |
-| 541 | Dillo-gence is Key | This track unlocks during TokTz-Ket-Dill. | 13 May 2008 |
-| 542 | TokTz-Ket-Ek-Mack | This track unlocks during TokTz-Ket-Dill. | 13 May 2008 |
-| 543 | Cool for Ali Cats | This track unlocks during Smoking Kills. | 5 June 2008 |
-| 544 | Desert Smoke | This track unlocks during Smoking Kills. | 5 June 2008 |
-| 545 | Slain to Waste | This track unlocks during Smoking Kills. | 5 June 2008 |
-| 546 | Under the Sand | This track unlocks during Smoking Kills. | 5 June 2008 |
-| 547 | A Pirate's Life for Me | This track unlocks during Rocking Out. | 11 June 2008 |
-| 548 | Jailbird | This track unlocks during Rocking Out. | 11 June 2008 |
-| 549 | Something Fishy | This track unlocks during Rocking Out. | 11 June 2008 |
-| 550 | The Adventurer | This track was unlocked automatically. | 14 July 2008 |
-| 551 | The Mentor | This track was unlocked automatically. | 14 July 2008 |
-| 552 | Shining Spirit | This track unlocks during Spirit of Summer. | 29 July 2008 |
-| 553 | Troubled Spirit | This track unlocks during Spirit of Summer. | 29 July 2008 |
-| 554 | Ardougne Ago | This track unlocks during Meeting History. | 5 August 2008 |
-| 555 | Second Vision | This track unlocks at the Runecrafting Guild. | 12 August 2008 |
 | 556 | Circus | This track unlocks during the Circus. | 2 September 2008 |
 | 557 | Bane of Summer | This track unlocks during Summer's End. | 15 September 2008 |
 | 558 | The Vacant Abyss | This track unlocks during Summer's End. | 15 September 2008 |
@@ -71,16 +35,13 @@
 | 560 | The Ruins of Camdozaal | This track unlocks during Defender of Varrock. | 29 September 2008 |
 | 561 | Undead Army | This track unlocks during Defender of Varrock. | 29 September 2008 |
 | 562 | Zombie Invasion | This track unlocks during Defender of Varrock. | 29 September 2008 |
-| 563 | The Art of Hocus-Pocus | This track was unlocked in a Hallowe'en holiday event (2008 onwards). | 28 October 2008 |
 | 564 | Magic and Mystery | This track unlocks during the Swept Away quest. | 28 October 2008 |
-| 565 | Stealing Creation | This track unlocks during Stealing Creation. | 11 November 2008 |
 | 566 | Black of Knight | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 567 | Dangerous Logic | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 568 | Temple Desecrated | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 569 | The Evil Within | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 570 | The Sound of Guthix | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 571 | Cavernous Mythology | This track unlocks during Myths of the White Lands. | 16 December 2008 |
-| 572 | The Dance of the Snow Queen | This track was unlocked in a Christmas holiday event (2008 onwards). | 16 December 2008 |
 | 573 | Winter Funfare | This track unlocks during Myths of the White Lands. | 16 December 2008 |
 
 ### 2009
@@ -88,7 +49,6 @@
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
 | 574 | The Phoenix | This track unlocks during the In Pyre Need quest. | 6 January 2009 |
-| 575 | Soul Wars | This track unlocks during Soul Wars. | 10 February 2009 |
 | 576 | The Waiting Game | This track unlocks during Soul Wars. | 10 February 2009 |
 | 577 | Snack Attack | This track was unlocked automatically. | 25 February 2009 |
 | 578 | Trees Aren't Your Friends | This track unlocks during Evil Tree. | 25 February 2009 |
