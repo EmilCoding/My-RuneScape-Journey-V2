@@ -137,10 +137,10 @@ def reduce_overview_to_date(overview: LevelOverview, date: datetime.date) -> Lev
 
 
 if __name__ == '__main__':
-    from rshisttools.dates import CURRENT_INGAME_DATE
+    from rshisttools.dates import current_ingame_date
     from rshisttools.skills import COMBAT_SKILLS
     official_overview = get_official_overview()
-    reduced_overview = reduce_overview_to_date(official_overview, CURRENT_INGAME_DATE)
+    reduced_overview = reduce_overview_to_date(official_overview, current_ingame_date())
 
     print("My official levels:")
     print(f"- Combat level is: {official_overview.get_combat_level()}")

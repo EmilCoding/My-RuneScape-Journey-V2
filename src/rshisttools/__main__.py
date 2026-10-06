@@ -15,7 +15,7 @@ from rshisttools.update_files import make_missing_update_files
 from rshisttools.webscraping import scrape_and_save_updates_to_table
 from rshisttools.skillfront import MinimumStates, skill_front_history
 from rshisttools.runemetrics_api import LevelOverview, get_ingame_overview
-from rshisttools.walk import UpdateInfo, DateRange, get_current_update_window, walk_updates
+from rshisttools.walk import UpdateInfo, DateRange, get_current_update, get_current_update_window, get_updates_from_folder
 
 
 # Regex patterns
@@ -122,9 +122,10 @@ def update_readme() -> None:
     3) Update current combat level
     4) Update stats section
     """
-    ingame_date = dates.CURRENT_INGAME_DATE
+    ingame_date = dates.current_ingame_date()
     level_overview = get_ingame_overview(ingame_date)
-    current_update, window = get_current_update_window()
+    current_update = get_current_update()
+    window = get_current_update_window()
 
     click.echo("Read content of ~/README.md file")
     with open(paths.README, 'r', encoding='utf-8') as filewrapper:
@@ -145,7 +146,7 @@ def update_readme() -> None:
 def _update_current_total_level_in_readme(lines: list[str], overview: LevelOverview) -> None:
     """Find and update the 'total-level' line in the README file stored in line."""
     total_level = overview.get_total_level()
-    maximum_total_level = dates.max_total_level(dates.CURRENT_INGAME_DATE)
+    maximum_total_level = dates.max_total_level(dates.current_ingame_date())
 
     for i, line in enumerate(lines):
         if TOTAL_LEVEL_PATTERN.match(line):
@@ -223,7 +224,7 @@ def update_skill_fronts(ctx) -> None:
 @main.command
 def update_current_skill_front() -> None:
     """Update the current skill front in the 'minimum-skill-front.md' file in repository root."""
-    *_, (update, skillfront) = skill_front_history(dates.CURRENT_INGAME_DATE)
+    *_, (update, skillfront) = skill_front_history(dates.current_ingame_date())
 
     click.echo("Update ~/minimum-skill-front.md")
     with open(paths.CURRENT_SKILL_FRONT, 'w') as filewrapper:
@@ -239,12 +240,12 @@ def end_of_year_skill_front() -> None:
     """
     click.echo("Determine skill front history and extract them into years ")
     end_of_year_fronts: dict[int, tuple[UpdateInfo, MinimumStates]] = {}
-    for update, skillfront in skill_front_history(dates.CURRENT_INGAME_DATE):
+    for update, skillfront in skill_front_history(dates.current_ingame_date()):
         end_of_year_fronts[update.date.year] = (update, skillfront)
 
     # Remove current year if not done yet
     current_year = max(end_of_year_fronts)
-    if current_year == min(walk_updates(paths.FUTURE_GOALS), key=UpdateInfo.get_date).date.year:
+    if current_year == min(get_updates_from_folder(paths.FUTURE_GOALS), key=UpdateInfo.get_date).date.year:
         click.echo(f"Year {current_year} is finished - The minimum-skill-front cannot be made")
         end_of_year_fronts.pop(current_year)
 
@@ -259,7 +260,7 @@ def end_of_year_skill_front() -> None:
 @main.command
 def end_of_version_skill_front() -> None:
     """Write and end-of-version skill fronts for RuneScape classic, and later RuneScape 2"""
-    history = skill_front_history(dates.CURRENT_INGAME_DATE)
+    history = skill_front_history(dates.current_ingame_date())
 
     # Find last update in RuneScape Classic
     *_, (_, skillfront) = filter(lambda pair: pair[0].date < dates.RUNESCAPE_2_RELEASE_DAY, history)

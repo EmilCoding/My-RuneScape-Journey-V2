@@ -7,7 +7,6 @@
 
 | Id | Title | Unlock hint | Release | Why I havn't unlocked it yet |
 | -- | ----- | ----------- | ------- | ---------------------------- |
-| 31 | Dangerous | This track unlocks somewhere in the Wilderness. | 15 March 2004 | Unlocked upon entering the Morytania Slayer Tower dungeon. |
 | 203 | Everywhere | This track unlocks to the south-west of Prifddinas. | 20 September 2004 | Don't know why it does not unlock. I probably have to wait until Prif. |
 
 ## Minigames
@@ -28,7 +27,6 @@
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 556 | Circus | This track unlocks during the Circus. | 2 September 2008 |
 | 557 | Bane of Summer | This track unlocks during Summer's End. | 15 September 2008 |
 | 558 | The Vacant Abyss | This track unlocks during Summer's End. | 15 September 2008 |
 | 559 | Dream Theatre | This track unlocks during Defender of Varrock. | 29 September 2008 |

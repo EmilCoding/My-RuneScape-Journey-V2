@@ -85,5 +85,4 @@ graph TD
     TCC[Trimmed Completionist cape]
     MCC[Master Completionist cape]
     CTCC[Master Trimmed Completionist cape]
-
 ```

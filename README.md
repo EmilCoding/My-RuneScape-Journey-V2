@@ -31,27 +31,25 @@ To aid me in this, I have developed a set of Python tools, that scraps the [Rune
 
 ## My account's state
 
-- [Current date](./2008.08.26%20-%20Update%20All%20Fired%20Up.md): (26 August 2008 -- 02 September 2008).
+- [Current date](./completed%20goals/RuneScape%20Classic/2001/2001.01.04%20-%20Day%20of%20release.md): (04 January 2001, 02 September 2008).
 - [Current version](#versions): RuneScape 2
 - [Current age](#age): Fifth age
 - [Era](#eras): Post-split
 - [My rules](./rules.md)
 - [Backlog](./backlog.md) - This is the backlog. Here you can see which goals I have skipped for different reasons.
 - [Minimum skill front](./minimum-skill-front.md) - This lists the minimum stat requirements at the current point in time.
-- Combat level: 132.
-- Total level: 2125 / 2376.
+- Combat level: 120.
+- Total level: 1078 / 1188.
 
 <!-- Current skills start -->
 |     |     |     |
 | --- | --- | --- |
-| ![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b) 88 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) 94 | ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb) 85 |
-| ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 | ![Agility-icon](https://runescape.wiki/images/Agility-icon.png?9a56e) 87 | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
-| ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 88 | ![Herblore-icon](https://runescape.wiki/images/Herblore-icon.png?43135) 83 | ![Fishing-icon](https://runescape.wiki/images/Fishing-icon.png?bcc7c) 82 |
-| ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 86 | ![Thieving-icon](https://runescape.wiki/images/Thieving-icon.png?1fcf2) 91 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
-| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 88 | ![Crafting-icon](https://runescape.wiki/images/Crafting-icon.png?f224a) 90 | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 89 |
-| ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 | ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) 95 | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 82 |
-| ![Runecrafting-icon](https://runescape.wiki/images/Runecrafting-icon.png?efa59) 77 | ![Slayer-icon](https://runescape.wiki/images/Slayer-icon.png?ecab5) 92 | ![Farming-icon](https://runescape.wiki/images/Farming-icon.png?a1230) 86 |
-| ![Construction-icon](https://runescape.wiki/images/Construction-icon.png?d6534) 99 | ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188) 79 | ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d) 90 |
+| ![attack-icon](https://runescape.wiki/images/Attack-icon.png?93d2b) 88 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) 94 | ![Mining-icon](https://runescape.wiki/images/Mining-icon.png?8cefb) 86 |
+| ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 |  | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
+| ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 88 |  |  |
+| ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 86 |  | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
+| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 88 |  | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 92 |
+| ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 |  | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 82 |
 <!-- Current skills end -->
 
 *Current levels normalized to the current in-game date.*
@@ -126,4 +124,4 @@ RuneScape 2 was released with a lot of new content. The pre-split label refers t
 Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and quests were released here, including the God Wars Dungeon, Corporeal Beast, Ritual of the Mahjarrat, etc. On 20 November 2012, the [Evolution of Combat](https://runescape.wiki/w/Evolution_of_Combat) was released, which changed the combat system completely. The start of this new era did not go well, as many players disliked the update and quit the game. This drove the community to private servers, which eventually led Jagex to poll the release of Old School RuneScape based on an old 10 August 2007 backup. This kickstarted OSRS, which became the more popular game of the two. [RuneScape Wiki](https://runescape.wiki/w/Old_School_RuneScape).
 
 
-*Last updated: 29 September 2026*
+*Last updated: 06 October 2026*

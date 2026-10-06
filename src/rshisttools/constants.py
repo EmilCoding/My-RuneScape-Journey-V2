@@ -4,8 +4,22 @@ import datetime
 from dotenv import load_dotenv
 
 load_dotenv()
-PLAYERNAME = os.getenv("ACCOUNTNAME")
-ACCOUNT_START_DATE = datetime.date(*map(int, os.getenv("ACCOUNTSTART").split('.')))  # type: ignore
+
+@lambda _: _()
+def PLAYERNAME():
+    """Name of the player's account"""
+    if (name := os.getenv("ACCOUNTNAME")) is None:
+        raise ValueError('Could not find the field `ACCOUNTNAME` in .env file')
+    return name
+
+
+@lambda _: _()
+def ACCOUNT_START_DATE():
+    """Start date of the account."""
+    if (datestring := os.getenv("ACCOUNTSTART")) is None:
+        raise ValueError('Could not find the field `ACCOUNTSTART` in .env file')
+    year, month, day = map(int, datestring.split('.'))
+    return datetime.date(year, month, day)
 
 
 if __name__ == '__main__':

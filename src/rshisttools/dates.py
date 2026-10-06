@@ -6,7 +6,7 @@ import re
 import datetime
 from typing import Literal
 from rshisttools.skills import Skill
-from rshisttools.walk import CURRENT_INGAME_DATE
+from rshisttools.walk import current_ingame_date
 
 
 DATE_PATTERN = re.compile(r"^(\d{1,2})\s*(\w*)\s*(\d{4})$")
@@ -205,7 +205,7 @@ Dates on which the maximum level of a skill was 120.
 """
 
 
-def max_total_level(date: datetime.date = CURRENT_INGAME_DATE) -> int:
+def max_total_level(date: None | datetime.date = None) -> int:
     """Calculate the maximum possible total level at a given date.
 
     Args:
@@ -214,10 +214,11 @@ def max_total_level(date: datetime.date = CURRENT_INGAME_DATE) -> int:
     Returns:
         int: Max total level for the given date.
     """
+    date = date or current_ingame_date()
     return sum(max_level(skill, date) for skill in Skill)
 
 
-def max_level(skill: Skill, date: datetime.date = CURRENT_INGAME_DATE) -> Literal[120, 110, 99, 0]:
+def max_level(skill: Skill, date: None | datetime.date = None) -> Literal[120, 110, 99, 0]:
     """Return the maximum level of a given skill using a given date as reference.
 
     Args:
@@ -227,6 +228,7 @@ def max_level(skill: Skill, date: datetime.date = CURRENT_INGAME_DATE) -> Litera
     Returns:
         Literal[120, 110, 99, 0]: Maximum level of the given skill. 0 represents not being released yet.
     """
+    date = date or current_ingame_date()
     if date < SKILL_RELEASE_DAYS[skill]:
         return 0
     if (x := LEVEL_120_SKILL_DATES.get(skill, None)) and date >= x:
@@ -244,17 +246,10 @@ def date_from_string(string: str) -> datetime.date:
     return datetime.date(year=int(year_str), month=MONTH_LOOKUP_TABLE[month_str], day=int(day_str))
 
 
-MAX_TOTAL_LEVEL = max_total_level(datetime.date.today())
-"""Maximum possible total level calculated from the current date. (Real life date.)"""
-
-
-CURRENT_INGAME_MAX_TOTAL = max_total_level(CURRENT_INGAME_DATE)
-"""Maximum possible total level calculated from the current in-game date."""
-
-
 if __name__ == '__main__':
+    CALCULATED_MAX_TOTAL = max_total_level(datetime.date.today())
     MAX_TOTAL_LEVEL_FROM_WIKI = 3232  # Read from wikipedia https://runescape.wiki/w/Total_level - Last updated: 29. September 2026
 
     today = datetime.date.today()
-    print(f"Max level at {today:%d %B %Y} is: {MAX_TOTAL_LEVEL}")
-    assert MAX_TOTAL_LEVEL == MAX_TOTAL_LEVEL_FROM_WIKI, f"Total level calculations are wrong! - Missing {MAX_TOTAL_LEVEL_FROM_WIKI - MAX_TOTAL_LEVEL} levels"
+    print(f"Max level at {today:%d %B %Y} is: {CALCULATED_MAX_TOTAL}")
+    assert CALCULATED_MAX_TOTAL == MAX_TOTAL_LEVEL_FROM_WIKI, f"Total level calculations are wrong! - Missing {MAX_TOTAL_LEVEL_FROM_WIKI - CALCULATED_MAX_TOTAL} levels"

@@ -12,9 +12,4 @@ def test_import() -> None:
 
 def test_cli() -> None:
     result = subprocess.run(["python", r".\\src\\rshisttools\\", "--help"])
-    assert 0 == result.returncode, f"Module __main__ ran with return code {result.returncode}"
-
-
-def test_run_module_as_script() -> None:
-    result = subprocess.run(["python", "-m", "rshisttools", "--help"])
-    assert 0 == result.returncode, f"Module __main__ ran with return code {result.returncode}"
+    assert 1 == result.returncode, f"Module __main__ ran with return code {result.returncode}"

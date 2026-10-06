@@ -15,14 +15,25 @@ from rshisttools.paths import RAW_UPDATES_TABLE_FILE
 
 
 HTTP_OK_STATUS_CODE = 200
+"""Status code for http signalling everything connected correctly."""
+
+
 WIKIROOT = "https://runescape.wiki/"
+"""Link to the root of the RuneScape wiki. All wiki. pages starts with this string."""
+
+
 HREF_GAME_UPDATES = "https://runescape.wiki/w/Game_updates"
+"""Link to the RuneScape wiki page containing all games updates in cronological order."""
 
 
 class UpdateEntry(TypedDict):
+    """Entry in the game updates table on the RuneScape wiki."""
     name: str
+    """Name of the update."""
     href: str
+    """Hyperlink to the specific update page."""
     isodatestring: str
+    """String describing the date of the update in the ISO date format."""
 
 
 def scrape_and_save_updates_to_table() -> None:
