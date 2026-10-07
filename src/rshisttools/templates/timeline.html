@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101513">
+    <title>RuneScape update timeline</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='timeline.css') }}">
+    <script src="{{ url_for('static', filename='timeline.js') }}" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="RuneScape journey home">
+          <span class="brand-mark">R</span>
+          <span>RuneScape <span class="brand-muted">/ JOURNEY LOG</span></span>
+        </a>
+        <span class="topbar-note"><span class="live-dot"></span> LOCAL ARCHIVE</span>
+      </header>
+
+      <main>
+        <section class="intro">
+          <div>
+            <p class="eyebrow">A journey through every update</p>
+            <h1>The update timeline<span>.</span></h1>
+            <p class="intro-copy">Follow the milestones, revisit the goals, and pick up where the adventure left off.</p>
+          </div>
+          <div class="intro-stats">
+            <span class="stat-number" id="update-count">—</span>
+            <span class="stat-label">UPDATES IN THE LOG</span>
+          </div>
+        </section>
+
+        <div class="workspace">
+          <section class="timeline-panel" aria-labelledby="timeline-heading">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">The archive</p>
+                <h2 id="timeline-heading">Scroll through time</h2>
+              </div>
+              <span id="visible-count" class="visible-count"></span>
+            </div>
+
+            <div class="filters" aria-label="Filter updates by status">
+              <label class="filter-chip filter-completed">
+                <input type="checkbox" value="completed" checked>
+                <span class="filter-dot"></span> Completed
+              </label>
+              <label class="filter-chip filter-partial">
+                <input type="checkbox" value="partial" checked>
+                <span class="filter-dot"></span> In progress
+              </label>
+              <label class="filter-chip filter-future">
+                <input type="checkbox" value="future" checked>
+                <span class="filter-dot"></span> Not started
+              </label>
+              <label class="filter-chip filter-optional">
+                <input id="show-optional" type="checkbox" checked>
+                <span class="filter-dot"></span> Show optional goals
+              </label>
+            </div>
+
+            <div id="timeline" class="timeline-scroll" aria-live="polite">
+              <p class="loading-state">Loading updates…</p>
+            </div>
+          </section>
+
+          <aside class="focus-panel" aria-labelledby="focus-heading">
+            <div class="focus-header">
+              <p class="eyebrow">Your current chapter</p>
+              <h2 id="focus-heading">Focused update</h2>
+            </div>
+            <div id="focus-content" class="focus-content">
+              <div class="empty-focus">
+                <span class="empty-icon">↖</span>
+                <p>Select an update on the timeline to see its goals here.</p>
+              </div>
+            </div>
+            <p id="feedback" class="feedback" role="status" aria-live="polite"></p>
+          </aside>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <span>RUNESCAPE HISTORY PROJECT</span>
+        <span>Every update is another page in the story.</span>
+      </footer>
+    </div>
+  </body>
+</html>

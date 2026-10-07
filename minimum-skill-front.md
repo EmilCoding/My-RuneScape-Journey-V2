@@ -33,4 +33,4 @@
 - ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 1 - *All players starts with level 1 Woodcutting.*
 
 
-*Last updated: 06 October 2026 - 09:10:31*
+*Last updated: 07 October 2026 - 14:02:20*

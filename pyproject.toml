@@ -11,6 +11,9 @@ authors = [
 description = "Reposity documents my journey through RuneScape one update at a time."
 readme = "README.md"
 requires-python = ">=3.12"
+dependencies = [
+    "Flask>=3.0",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -19,3 +22,9 @@ classifiers = [
 [project.urls]
 Wiki = "https://runescape.wiki/w/"
 Updates = "https://runescape.wiki/w/Game_updates"
+
+[project.scripts]
+rshisttools-web = "rshisttools.web:main"
+
+[tool.setuptools.package-data]
+rshisttools = ["templates/*.html", "static/*.css", "static/*.js"]

@@ -27,13 +27,6 @@
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 557 | Bane of Summer | This track unlocks during Summer's End. | 15 September 2008 |
-| 558 | The Vacant Abyss | This track unlocks during Summer's End. | 15 September 2008 |
-| 559 | Dream Theatre | This track unlocks during Defender of Varrock. | 29 September 2008 |
-| 560 | The Ruins of Camdozaal | This track unlocks during Defender of Varrock. | 29 September 2008 |
-| 561 | Undead Army | This track unlocks during Defender of Varrock. | 29 September 2008 |
-| 562 | Zombie Invasion | This track unlocks during Defender of Varrock. | 29 September 2008 |
-| 564 | Magic and Mystery | This track unlocks during the Swept Away quest. | 28 October 2008 |
 | 566 | Black of Knight | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 567 | Dangerous Logic | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 568 | Temple Desecrated | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
