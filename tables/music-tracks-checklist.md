@@ -27,13 +27,7 @@
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 566 | Black of Knight | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
-| 567 | Dangerous Logic | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
-| 568 | Temple Desecrated | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
-| 569 | The Evil Within | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
-| 570 | The Sound of Guthix | This track unlocks during the While Guthix Sleeps quest. | 26 November 2008 |
 | 571 | Cavernous Mythology | This track unlocks during Myths of the White Lands. | 16 December 2008 |
-| 573 | Winter Funfare | This track unlocks during Myths of the White Lands. | 16 December 2008 |
 
 ### 2009
 

@@ -3,7 +3,7 @@
 I am currently missing growing all the pets from the first [Summoning update](./partially%20completed/RuneScape%202/2008/2008.01.15%20-%20Update%20Summoning!.md).
 I am currently missing growing all the pets from [this](../partially%20completed/RuneScape%202/2008/2008.01.29%20-%20Update%20As%20a%20First%20Resort....md) update
 
-Currently growning: **Baby platypus**
+Currently growning: **Dalmation**
 
 Missing pets:
 
