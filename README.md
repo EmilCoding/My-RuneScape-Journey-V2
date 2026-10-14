@@ -49,7 +49,7 @@ local use.
 
 ## My account's state
 
-- [Current date](./completed%20goals/RuneScape%20Classic/2001/2001.01.04%20-%20Day%20of%20release.md): (04 January 2001, 16 December 2008).
+- [Current date](./completed%20goals/RuneScape%20Classic/2001/2001.01.04%20-%20Day%20of%20release.md): (04 January 2001, 22 June 2009).
 - [Current version](#versions): RuneScape 2
 - [Current age](#age): Fifth age
 - [Era](#eras): Post-split
@@ -57,7 +57,7 @@ local use.
 - [Backlog](./backlog.md) - This is the backlog. Here you can see which goals I have skipped for different reasons.
 - [Minimum skill front](./minimum-skill-front.md) - This lists the minimum stat requirements at the current point in time.
 - Combat level: 120.
-- Total level: 1080 / 1188.
+- Total level: 1081 / 1188.
 
 <!-- Current skills start -->
 |     |     |     |
@@ -66,7 +66,7 @@ local use.
 | ![Strength-icon](https://runescape.wiki/images/Strength-icon.png?4b0ac) 81 |  | ![Smithing-icon](https://runescape.wiki/images/Smithing-icon.png?caf94) 99 |
 | ![Defence-icon](https://runescape.wiki/images/Defence-icon.png?8d986) 88 |  |  |
 | ![Ranged-icon](https://runescape.wiki/images/Ranged-icon.png?310aa) 87 |  | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) 95 |
-| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 88 |  | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 92 |
+| ![Prayer-icon](https://runescape.wiki/images/Prayer-icon.png?933f9) 89 |  | ![Firemaking-icon](https://runescape.wiki/images/Firemaking-icon.png?31d80) 92 |
 | ![Magic-icon](https://runescape.wiki/images/Magic-icon.png?60d6d) 99 |  | ![Woodcutting-icon](https://runescape.wiki/images/Woodcutting-icon.png?e8049) 82 |
 <!-- Current skills end -->
 
@@ -142,4 +142,4 @@ RuneScape 2 was released with a lot of new content. The pre-split label refers t
 Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and quests were released here, including the God Wars Dungeon, Corporeal Beast, Ritual of the Mahjarrat, etc. On 20 November 2012, the [Evolution of Combat](https://runescape.wiki/w/Evolution_of_Combat) was released, which changed the combat system completely. The start of this new era did not go well, as many players disliked the update and quit the game. This drove the community to private servers, which eventually led Jagex to poll the release of Old School RuneScape based on an old 10 August 2007 backup. This kickstarted OSRS, which became the more popular game of the two. [RuneScape Wiki](https://runescape.wiki/w/Old_School_RuneScape).
 
 
-*Last updated: 07 October 2026*
+*Last updated: 14 October 2026*

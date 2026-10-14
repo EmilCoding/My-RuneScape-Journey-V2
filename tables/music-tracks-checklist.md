@@ -1,4 +1,4 @@
-# List of music tracks yet to be unlocked
+# List of music tracks yet to be unlocked - 6 January 2026
 
 [List of music tracks](https://runescape.wiki/w/List_of_music_tracks)
 
@@ -11,82 +11,30 @@
 
 ## Minigames
 
+| Id | Title | Unlock hint | Release |
+| -- | ----- | ----------- | ------- |
 | 248 | Castle Wars | This track unlocks during Castle Wars, fighting for Saradomin. | 13 December 2004 |
 | 380 | Pest Control | This track unlocks during Pest Control. | 18 April 2006 |
 | 530 | Guthix's Hunter | This track unlocks during Fist of Guthix. | 9 April 2008 |
 | 565 | Stealing Creation | This track unlocks during Stealing Creation. | 11 November 2008 |
 | 575 | Soul Wars | This track unlocks during Soul Wars. | 10 February 2009 |
 
-## Music tracks that I should unlocked, but I havn't
-
-| Id | Title | Unlock hint | Release |
-| -- | ----- | ----------- | ------- |
-| 337 | Dagannoth Dawn | This track unlocks in Waterbirth Island Dungeon. | 7 November 2005 |
-
 ## Music tracks that are not released yet for me.
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 571 | Cavernous Mythology | This track unlocks during Myths of the White Lands. | 16 December 2008 |
-
-### 2009
-
-| Id | Title | Unlock hint | Release |
-| -- | ----- | ----------- | ------- |
-| 574 | The Phoenix | This track unlocks during the In Pyre Need quest. | 6 January 2009 |
-| 576 | The Waiting Game | This track unlocks during Soul Wars. | 10 February 2009 |
-| 577 | Snack Attack | This track was unlocked automatically. | 25 February 2009 |
-| 578 | Trees Aren't Your Friends | This track unlocks during Evil Tree. | 25 February 2009 |
-| 579 | But We Can Fight | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 580 | Demise of the Dorgeshuun | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 581 | Don't Panic Zanik | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 582 | Face Off | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 583 | Godslayer | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 584 | The Chosen Commander | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 585 | The Throne of Bandos | This track unlocks during The Chosen Commander. | 17 March 2009 |
-| 586 | Frost Fight | This track unlocks during Glorious Memories. | 1 April 2009 |
-| 587 | Lair of Kang Admi | This track unlocks during Glorious Memories. | 1 April 2009 |
-| 588 | Hare-brained Machines | This track unlocks in an Easter holiday event (2009 onwards). | 8 April 2009 |
-| 589 | Lazy Wabbit | This track unlocks in an Easter holiday event (2009 onwards). | 8 April 2009 |
-| 590 | Rest for the Weary | This track unlocks during The Tale of the Muspah. | 21 April 2009 |
-| 591 | The Muspah's Tomb | This track unlocks during The Tale of the Muspah. | 21 April 2009 |
-| 592 | Ancestral Wisdom | This track unlocks during Missing My Mummy. | 19 May 2009 |
-| 593 | The Plundered Tomb | This track unlocks during Missing My Mummy. | 19 May 2009 |
-| 594 | Desert Island Bear | This track unlocks during Hunt for Red Raktuber. | 2 June 2009 |
-| 595 | Ice Day for Penguins | This track unlocks at the Iceberg Hunting Area. | 2 June 2009 |
-| 596 | Penguin Possible | This track unlocks during Hunt for Red Raktuber. | 2 June 2009 |
-| 597 | The Pengmersible | This track unlocks during Hunt for Red Raktuber. | 2 June 2009 |
-| 598 | Kharidian Nights | This track unlocks at the pyramid south of the Ruins of Uzer. | 16 June 2009 |
-| 599 | Eruption | This track unlocks in the Wilderness crater. | 22 June 2009 |
-| 600 | Command Centre | This track unlocks at South Feldip Hills. | 8 July 2009 |
-| 601 | Mobilising Armies | This track unlocks by reading the note left by A.R.M.S. | 8 July 2009 |
-| 602 | Waiting for Battle | This track unlocks by reading the note left by A.R.M.S. | 8 July 2009 |
 | 603 | Lamistard's Labyrinth | This track unlocks during The Curse of Arrav. | 21 July 2009 |
 | 604 | The Heist | This track unlocks during The Curse of Arrav or Dishonour among Thieves. | 21 July 2009 |
 | 605 | Exhibit 'A' | This track unlocks when confronting the Odd Old Man's 'Exhibit'. | 10 August 2009 |
 | 606 | Fight of the Dwarves | This track unlocks during Forgiveness of a Chaos Dwarf. | 9 September 2009 |
 | 607 | Living Rock | This track unlocks in the Living Rock Caverns. | 17 September 2009 |
-| 608 | Scape Theme | This track was unlocked automatically. | 17 September 2009 |
 | 609 | Elven Seed | This track unlocks during Within the Light. | 13 October 2009 |
-| 610 | Itsy Bitsy... | This track was unlocked in a Hallowe'en holiday event (2009 onwards). | 26 October 2009 |
-| 611 | Poison Dreams | This track was unlocked in a Hallowe'en holiday event (2009 onwards). | 26 October 2009 |
-| 612 | Trick or Treat? | This track was unlocked in a Hallowe'en holiday event (2009 onwards). | 26 October 2009 |
-| 613 | The Duke | This track unlocks on the upper floors of Lumbridge Castle. | 9 November 2009 |
 | 614 | The Horn of Chill | This track unlocks during The Temple at Senntisten quest. | 3 December 2009 |
 | 615 | Zaros Stirs | This track unlocks during The Temple at Senntisten quest. | 3 December 2009 |
 | 616 | Final Destination | This track unlocks in Kuradal's Slayer Dungeon. | 8 December 2009 |
-| 617 | Honkytonky Harmony | This track unlocks in The Rising Sun Inn, Falador. | 15 December 2009 |
-| 618 | Honkytonky Medieval | This track unlocks in The Dancing Donkey Inn, Varrock. | 15 December 2009 |
-| 619 | Honkytonky Newbie Melody | This track unlocks in The Blue Moon Inn, Varrock. | 15 December 2009 |
-| 620 | Honkytonky Parade | This track unlocks in The Jolly Boar Inn, northeast of Varrock. | 15 December 2009 |
-| 621 | Honkytonky Sea Shanty | This track unlocks in The Rusty Anchor Inn, Port Sarim. | 15 December 2009 |
-| 622 | I'm Counting on You | This track unlocks during Vampyre Slayer. | 15 December 2009 |
 | 623 | The Fallen Hero | This track unlocks during Blood Runs Deep. | 15 December 2009 |
 | 624 | Jaws of the Dagannoth | This track unlocks during Blood Runs Deep. | 15 December 2009 |
 | 625 | Maiasaura | This track unlocks during Blood Runs Deep. | 15 December 2009 |
-| 626 | Ghost of Christmas Presents | This track unlocks during a Christmas holiday event (2009 onwards). | 21 December 2009 |
-| 627 | Silent Knight | This track was unlocked during a Christmas holiday event (2009 onwards). | 21 December 2009 |
-| 628 | Smorgasbord | This track unlocks during a Christmas holiday event (2009 onwards). | 21 December 2009 |
 
 ### 2010
 
@@ -933,3 +881,22 @@
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
 | 1386 | A Silver Jubilee | This track unlocks during or after the 25th Anniversary event. | 5 January 2026 |
+| 1388 | Havenhome | This track unlocks on Havenhythe. | 2026-03-23 |
+| 1389 | Highweald Forest | This track unlocks on Havenhythe. | 2026-03-23 |
+| 1390 | Spirits of the Forest | This track unlocks on Havenhythe. | 2026-03-23 |
+| 1391 | Amberfall | This track unlocks when discovering the village of Amberfell. | 2026-06-01 |
+| 1391 | Hollow Hill | This track unlocks at Hollow Hill. | 2026-03-23 |
+| 1392 | Inanna's Den | This track unlocks during the quest 'Secrets of Amberfell'. | 2026-06-01 |
+| 1392 | The Sanguine Heart | This track unlocks during the quest 'Hearts of Sanguine'. | 2026-03-23 |
+| 1393 | Inanna's Defence | This track unlocks during the quest 'Secrets of Amberfell'. | 2026-06-01 |
+| 1393 | Lord of Regret | This track unlocks at the Havenhythe Dig Site. | 2026-06-15 |
+| 1393 | Sanguine Suffering | This track unlocks during the quest 'Hearts of Sanguine'. | 2026-03-23 |
+| 1394 | Dirge of the Colossi | This track unlocks at the Havenhythe Dig Site. | 2026-06-15 |
+| 1394 | Ivar's Challenge | This track unlocks at Ivar's Arena. | 2026-03-23 |
+| 1395 | There's No Place Like Home | This track unlocks at your player-owned house. | 2026-07-13 |
+| 1396 | Heathervein | This track unlocks during the quest 'Heralds of Crimson'. | 2026-09-28 |
+| 1397 | Moonsylvar Wood | This track unlocks during the quest 'Heralds of Crimson'. | 2026-09-28 |
+| 1398 | Fenmoor | This track unlocks during the quest 'Heralds of Crimson'. | 2026-09-28 |
+| 1399 | Shuruk-Ba | This track unlocks during the quest 'Heralds of Crimson'. | 2026-09-28 |
+| 1400 | The Crimson Throne Room | This track unlocks during the quest 'Heralds of Crimson'. | 2026-09-28 |
+

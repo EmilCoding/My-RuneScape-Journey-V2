@@ -86,6 +86,10 @@ TEMPLATE_FILE = ROOT.joinpath('update-template.md')
 assert TEMPLATE_FILE.exists(), "Path to template file does not exists."
 
 
+MUSIC_TRACKS = TABLE_FOLDER.joinpath('music-tracks-checklist.md')
+"""Path to the checklist of music tracks"""
+
+
 COMPLETED_FOLDERS = {
     # RuneScape Classic
     2001: COMPLETED_GOALS.joinpath('RuneScape Classic', '2001'),
