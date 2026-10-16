@@ -44,69 +44,12 @@
 | 630 | Desolate Ruins | This track unlocks during Nomad's Requiem. | 11 January 2010 |
 | 631 | These Stones | This track unlocks in the basement of the Mage Training Arena. | 1 February 2010 |
 | 632 | A Familiar Feeling | This track unlocks during the Familiarisation event. | 16 February 2010 |
-| 633 | Dead and Buried | This track unlocks in the Lumbridge Catacombs. | 15 March 2010 |
-| 634 | The Pact | This track unlocks during The Blood Pact. | 15 March 2010 |
 | 635 | Freshwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
 | 636 | Saltwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
 | 637 | Stillwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
-| 638 | An Easter United | This track unlocks in an Easter holiday event (2010 onwards). | 29 March 2010 |
-| 639 | AdorI | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 640 | AdorII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 641 | AdorIII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 642 | AdorIV | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 643 | AdorV | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 644 | AdorVI | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 645 | AdorVII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 646 | AdorVIII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 647 | AdorIX | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 648 | AdorX | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 649 | Astea Frostweb | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 650 | Bal'lak the Pummeller | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 651 | Born to Do This | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 652 | Bulwark Beast | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 653 | Desolo I | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 654 | Desolo II | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 655 | Desolo III | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 656 | Desolo IV | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 657 | Desolo V | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 658 | Desolo VI | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 659 | Desolo VII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 660 | Desolo VIII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 661 | Desolo IX | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 662 | Desolo X | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 663 | Divine Skinweaver | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 664 | Glacialis I | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 665 | Glacialis II | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 666 | Glacialis III | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 667 | Glacialis IV | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 668 | Glacialis V | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 669 | Glacialis VI | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 670 | Glacialis VII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 671 | Glacialis VIII | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 672 | Glacialis IX | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 673 | Glacialis X | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 674 | Gluttonous Behemoth | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 675 | Har'Lakk the Riftsplitter | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 676 | Hobgoblin Geomancer | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 677 | Icy Bones | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 678 | Lexicus Runewright | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 679 | Luminescent Icefiend | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 680 | Night-gazer Khighorahk | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 681 | Plane-freezer Lakhrahnaz | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 682 | Rammernaut | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 683 | Sagittare | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 684 | Shadow-forger Ihlakhizan | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 685 | Stomp | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 686 | To'Kash the Bloodchiller | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 687 | Unholy Cursebearer | This track unlocks during Dungeoneering. | 12 April 2010 |
-| 688 | Thieves' Guild I | This track unlocks in the Thieves' Guild. | 28 April 2010 |
-| 689 | Thieves' Guild II | This track unlocks in the Thieves' Guild. | 28 April 2010 |
-| 690 | Thieves' Guild III | This track unlocks in the Thieves' Guild. | 28 April 2010 |
-| 691 | Thieves' Guild IV | This track unlocks in the Thieves' Guild. | 28 April 2010 |
 | 692 | Root Canal | This track unlocks during Fairy Tale Part III. | 13 May 2010 |
 | 693 | Body Talk | This track unlocks during Elemental Workshop III | 25 May 2010 |
 | 694 | Castle Warz | This track unlocks during Castle Wars, fighting for Zamorak. | 27 May 2010 |
-| 695 | Judge and Jury | This track unlocks during a court case. | 9 June 2010 |
 | 696 | Lortnoc Tsep | This track unlocks during Quiet Before the Swarm. | 24 June 2010 |
 | 697 | Mindful | This track unlocks during Quiet Before the Swarm. | 24 June 2010 |
 | 698 | Love and Hate | This track unlocks during Love Story. | 5 July 2010 |
@@ -118,31 +61,18 @@
 | 704 | Void Knights' Theme | This track unlocks during Quiet Before the Swarm. | 10 August 2010 |
 | 705 | Yk'Lagor the Thunderous | This track unlocks during Dungeoneering. | 19 August 2010 |
 | 706 | Flesh-spoiler Haasghenahk | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 707 | Gravecreeper | This track unlocks during Dungeoneering. | 19 August 2010 |
 | 708 | Necrolord | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 709 | Occulo I | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 710 | Occulo II | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 711 | Occulo III | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 712 | Occulo IV | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 713 | Occulo V | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 714 | Occulo VI | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 715 | Occulo VII | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 716 | Occulo VIII | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 717 | Occulo IX | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 718 | Occulo X | This track unlocks during Dungeoneering. | 19 August 2010 |
 | 719 | Runed Behemoth | This track unlocks during Dungeoneering. | 19 August 2010 |
 | 720 | Skeletal Trio | This track unlocks during Dungeoneering. | 19 August 2010 |
 | 721 | Destiny | This track was unlocked automatically. | 25 August 2010 |
 | 722 | Right of Conquest | This track unlocks in the Conquest lobby. | 25 August 2010 |
 | 723 | Unavoidable Conflict | This track unlocks during a Conquest battle. | 25 August 2010 |
-| 724 | Gunnarsgrunn | This track unlocks during Gunnar's Ground. | 21 September 2010 |
 | 725 | Give it Your Pest Shot | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 726 | In Security | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 727 | Mystery Revealed | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 728 | Precarious Void | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 729 | The Void Stares Back | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 730 | Who Are We to Judge? | This track unlocks during The Void Stares Back. | 6 October 2010 |
-| 731 | Black Zabeth | This track was unlocked in a Hallowe'en holiday event (2010 onwards). | 18 October 2010 |
 | 732 | Halloween Party | This track was unlocked during or after the Halloween 2010 event. | 18 October 2010 |
 | 733 | Blink | This track unlocks during Dungeoneering. | 2 November 2010 |
 | 734 | Dreadnaut | This track unlocks during Dungeoneering. | 2 November 2010 |
@@ -160,11 +90,8 @@
 | 746 | Torqueo X | This track unlocks during Dungeoneering. | 2 November 2010 |
 | 747 | Warped Gulega | This track unlocks during Dungeoneering. | 2 November 2010 |
 | 748 | World-gorger Shukarhazh | This track unlocks during Dungeoneering. | 2 November 2010 |
-| 749 | The Task at Hand | This track unlocks by completing 350 area task achievements. | 24 November 2010 |
 | 750 | Monkey See, Monkey Do | This track unlocks during Do Evil. | 1 December 2010 |
 | 751 | Simian Scuffle | This track unlocks during Do Evil. | 1 December 2010 |
-| 752 | Christmas Caverns | This track was unlocked in a Christmas holiday event (2010 onwards). | 20 December 2010 |
-| 753 | Seasonal Sports | This track can be unlocked in Christmas holiday event (2010 onwards). | 28 December 2010 |
 
 ### 2011
 
@@ -180,39 +107,17 @@
 | 761 | Cage Against the Machine | This track unlocks during Prisoner of Glouphrie. | 9 February 2011 |
 | 762 | Reunion | This track unlocks during Prisoner of Glouphrie. | 9 February 2011 |
 | 763 | Logical Progression | This track unlocks during Elemental Workshop 4 | 1 March 2011 |
-| 764 | Metalwork | This track unlocks in the Artisans' Workshop in Falador. | 8 March 2011 |
 | 765 | The Factory Floor | This track unlocks during A Clockwork Syringe. | 28 March 2011 |
-| 766 | Lament of the Snow Queen | This track unlocks during an Easter holiday event (2011 onwards). | 19 April 2011 |
-| 767 | Spring Song | This track unlocks during an Easter holiday event (2011 onwards). | 19 April 2011 |
 | 768 | Deadliest Catch | This track unlocks during Deadliest Catch. | 7 June 2011 |
 | 769 | Three of a Kind | This track unlocks during Deadliest Catch. | 7 June 2011 |
-| 770 | Troll Invasion | This track unlocks during a Troll Invasion. | 14 June 2011 |
 | 771 | Slug Poison | This track unlocks during Salt in the Wound. | 5 July 2011 |
 | 772 | Natural Selection | This track unlocks in the Jadinko Lair. | 12 July 2011 |
 | 773 | Architect of War | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 774 | Citadel Theme | This track unlocks on entering a Clan Citadel. | 26 July 2011 |
-| 775 | Citadel I | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 776 | Citadel II | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 777 | Citadel III | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 778 | Citadel IV | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 779 | Citadel V | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 780 | Citadel VI | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 781 | Citadel VII | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 782 | Citadel VIII | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 783 | Citadel IX | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 784 | Citadel X | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 785 | Citadel XI | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 786 | Citadel XII | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 787 | Citadel XIII | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 788 | Citadel XIV | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 789 | Citadel XV | This track unlocks in a Clan Citadel. | 26 July 2011 |
-| 790 | Citadel XVI | This track unlocks in a Clan Citadel. | 26 July 2011 |
 | 791 | Darkmeyer | This track unlocks during Branches of Darkmeyer. | 31 August 2011 |
 | 792 | Arboretum | This track unlocks during Branches of Darkmeyer. | 31 August 2011 |
 | 793 | Upir Likhyi | This track unlocks during Branches of Darkmeyer. | 31 August 2011 |
 | 794 | Return of Lucien | This track unlocks during Ritual of the Mahjarrat. | 14 September 2011 |
 | 795 | Kethsi | This track unlocks on entering Kethsi. | 4 October 2011 |
-| 796 | DCII Mash-up (Infinity Mix) | This track was unlocked in a Hallowe'en holiday event (2011 onwards). | 17 October 2011 |
 | 797 | Dominion Lobby I | This track unlocks in the Dominion Tower. | 7 November 2011 |
 | 798 | Dominion Lobby II | This track unlocks in the Dominion Tower. | 7 November 2011 |
 | 799 | Dominion Lobby III | This track unlocks in the Dominion Tower. | 7 November 2011 |
@@ -227,8 +132,6 @@
 | 808 | Valerio's Song | This track unlocks during the One Piercing Note quest. | 7 November 2011 |
 | 809 | Citharede Requiem | This track unlocks during the One Piercing Note quest. | 7 November 2011 |
 | 810 | Love Story | This track unlocks during Love Story. | 22 November 2011 |
-| 811 | Flash Factory | This track unlocks in the Flash Factory. | 13 December 2011 |
-| 812 | Chaotic Cookery | This track unlocks in a Christmas holiday event (2011 onwards). | 20 December 2011 |
 
 ### 2012
 
@@ -236,54 +139,18 @@
 | -- | ----- | ----------- | ------- |
 | 813 | Charred Remains | This track unlocks during The Firemakers' Curse quest. | 11 January 2012 |
 | 814 | The Firemakers' Theme | This track unlocks during The Firemakers' Curse quest. | 11 January 2012 |
-| 815 | Taverley Adventure | This track unlocks in Taverley. | 31 January 2012 |
-| 816 | Taverley Ambience | This track unlocks in Taverley. | 31 January 2012 |
-| 817 | Taverley Dreams | This track unlocks in Taverley. | 31 January 2012 |
-| 818 | Taverley Enchantment | This track unlocks in Taverley. | 31 January 2012 |
-| 819 | Taverley Lament | This track unlocks in Taverley. | 31 January 2012 |
-| 820 | Taverley Folk | This track unlocks in Taverley. | 31 January 2012 |
-| 821 | Taverley Frolics | This track unlocks in Taverley. | 31 January 2012 |
 | 822 | Ga'al | This track unlocks during The Elder Kiln quest. | 14 February 2012 |
-| 823 | Tzhaar City I | This track unlocks in the Tzhaar City. | 14 February 2012 |
-| 824 | Tzhaar City II | This track unlocks in the Tzhaar City. | 14 February 2012 |
-| 825 | Tzhaar City III | This track unlocks in the Tzhaar City. | 14 February 2012 |
-| 826 | Tzhaar City IV | This track unlocks in the Tzhaar City. | 14 February 2012 |
-| 827 | Tzhaar City V | This track unlocks in the Tzhaar City. | 14 February 2012 |
-| 828 | Tzhaar Supremacy I | This track unlocks in the Tzhaar Fight Cave, Fight Pit or Fight Kiln. | 14 February 2012 |
-| 829 | Tzhaar Supremacy II | This track unlocks in the Tzhaar Fight Cave, Fight Pit or Fight Kiln. | 14 February 2012 |
-| 830 | Tzhaar Supremacy III | This track unlocks in the Tzhaar Fight Cave, Fight Pit or Fight Kiln. | 14 February 2012 |
-| 831 | Daemonheim Entrance | This track unlocks at the entrance to Daemonheim. | 24 April 2012 |
-| 832 | Daemonheim Fremenniks | This track unlocks at the entrance to Daemonheim. | 24 April 2012 |
-| 833 | Runearia | This track unlocks on the first level of the Runecraft Siphoning area | 30 April 2012 |
 | 834 | Runebreath | This track unlocks on the first level of the Runecraft Siphoning area | 30 April 2012 |
 | 835 | Runecalm | This track unlocks on the first level of the Runecraft Siphoning area | 30 April 2012 |
 | 836 | Runefear | This track unlocks on the third level of the Runecraft Siphoning area | 30 April 2012 |
-| 837 | Runefire | This track unlocks on the third level of the Runecraft Siphoning area | 30 April 2012 |
-| 838 | Runeiverse | This track unlocks on the second level of the Runecraft Siphoning area | 30 April 2012 |
-| 839 | Runenergy | This track unlocks on the second level of the Runecraft Siphoning area | 30 April 2012 |
-| 840 | Runescar | This track unlocks on the third level of the Runecraft Siphoning area | 30 April 2012 |
-| 841 | Runespan | This track unlocks on the second level of the Runecraft Siphoning area | 30 April 2012 |
-| 842 | Runesphere | This track unlocks on the second level of the Runecraft Siphoning area | 30 April 2012 |
 | 843 | Runesque | This track unlocks on the first level of the Runecraft Siphoning area | 30 April 2012 |
-| 844 | Runetine | This track unlocks on the second level of the Runecraft Siphoning area | 30 April 2012 |
 | 845 | Runeward | This track unlocks on the first level of the Runecraft Siphoning area | 30 April 2012 |
-| 846 | Runewaste | This track unlocks on the third level of the Runecraft Siphoning area | 30 April 2012 |
-| 847 | Runewrath | This track unlocks on the third level of the Runecraft Siphoning area | 30 April 2012 |
 | 848 | Belly of the Beast | This track unlocks during Song from the Depths quest. | 22 May 2012 |
-| 849 | Getting on With Things | This track unlocks in Rimmington. | 22 May 2012 |
-| 850 | Hunting Dragons | This track unlocks in the Slayer Caves under Rimmington Mine. | 22 May 2012 |
-| 851 | Long Road | This track unlocks in Rimmington. | 22 May 2012 |
 | 852 | Something is Wrong | This track unlocks during Song from the Depths quest. | 22 May 2012 |
 | 853 | Song from the Depths | This track unlocks during Song from the Depths quest. | 22 May 2012 |
-| 854 | Weaving | This track unlocks in Rimmington. | 22 May 2012 |
 | 855 | Wending Through the Willows | This track unlocks during Song from the Depths quest. | 22 May 2012 |
 | 856 | Awoken | This track unlocks during the fight with the Queen Black Dragon. | 29 May 2012 |
 | 857 | Queen Black Dragon | This track unlocks during the fight with the Queen Black Dragon. | 29 May 2012 |
-| 858 | Burthorpe Danger | This track unlocks in Burthorpe. | 13 June 2012 |
-| 859 | Burthorpe Dilemma | This track unlocks in Burthorpe. | 13 June 2012 |
-| 860 | Burthorpe Dreams | This track unlocks in Burthorpe. | 13 June 2012 |
-| 861 | Burthorpe Drummer | This track unlocks in Burthorpe. | 13 June 2012 |
-| 862 | Burthorpe Duty | This track unlocks in Burthorpe. | 13 June 2012 |
 | 863 | Bounty | This track unlocks in the Deathmatch Arena. | 19 June 2012 |
 | 864 | I Can See You | This track unlocks in the Deathmatch Arena. | 19 June 2012 |
 | 865 | Hunted | This track unlocks in the Deathmatch Arena. | 19 June 2012 |
@@ -297,49 +164,9 @@
 | 873 | Lords and Ladies | This track unlocks during the Carnillean Rising quest | 3 July 2012 |
 | 874 | Philipe's Bane | This track unlocks during the Carnillean Rising quest | 3 July 2012 |
 | 875 | Tiny Adventure | This track unlocks during the Carnillean Rising quest | 3 July 2012 |
-| 876 | Cheese Roll | This track unlocks during/after the Gielinor Games. | 24 July 2012 |
-| 877 | What We Do | This track was unlocked during/after the Gielinor Games. | 24 July 2012 |
 | 878 | Penguin Prison | This track unlocks during Some Like it Cold quest. | 7 August 2012 |
 | 879 | Sub Way | This track unlocks during Some Like it Cold quest. | 7 August 2012 |
-| 880 | Super Furry Animal | This track unlocks during the Hunter Chinchompa D&D. | 28 August 2012 |
-| 881 | Above the City | This track unlocks during Diamond in the Rough quest. | 26 September 2012 |
-| 882 | Agents of Keli | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 883 | Breaking In | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 884 | The Cave | This track unlocks in the Kalphite Hive or during Diamond in the Rough quest. | 26 September 2012 |
-| 885 | The Chozan One | This track unlocks during Diamond in the Rough quest. | 26 September 2012 |
-| 886 | Darkness in Misthalin | This track unlocks in Draynor. | 26 September 2012 |
-| 887 | Draynor Market | This track unlocks in Draynor. | 26 September 2012 |
-| 888 | Dune | This track unlocks in the desert south of Al Kharid. | 26 September 2012 |
-| 889 | Everything in its Right Palace | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 890 | Evil | This track unlocks during Diamond in the Rough quest. | 26 September 2012 |
-| 891 | Final Showdown | This track unlocks during Diamond in the Rough quest. | 26 September 2012 |
-| 892 | Kharidian Bustle | This track unlocks in Al Kharid. | 26 September 2012 |
-| 893 | Oasis | This track unlocks in the desert south of Al Kharid. | 26 September 2012 |
-| 894 | Palace | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 895 | Palace Above | This track unlocks in Al Kharid. | 26 September 2012 |
-| 896 | Quicksand! | This track unlocks during Diamond in the Rough quest. | 26 September 2012 |
-| 897 | Rooftops | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 898 | Sands of Time | This track unlocks in the desert south of Al Kharid. | 26 September 2012 |
-| 899 | Shantay Pass | This track unlocks in the desert south of Al Kharid. | 26 September 2012 |
-| 900 | Skullery Jam | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 901 | A Song for Khnum | This track unlocks north of Al Kharid. | 26 September 2012 |
-| 902 | The Stalker | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 903 | Stand-off | This track unlocks during Stolen Hearts quest. | 26 September 2012 |
-| 904 | Violinsanity | This track unlocks north of Al Kharid. | 26 September 2012 |
-| 905 | While We Sleep | This track unlocks in Draynor. | 26 September 2012 |
-| 906 | Worlds | This track unlocks in Draynor. | 26 September 2012 |
 | 907 | Royal Rumble | This track unlocks in the lair of the King Black Dragon. | 9 October 2012 |
-| 908 | Inner Secret | This track unlocks under the Wizard's Tower. | 15 November 2012 |
-| 909 | Bloody Foundation | This track unlocks during the Rune Memories quest. | 28 November 2012 |
-| 910 | Blue Wizards | This track unlocks at the Wizard's Tower. | 28 November 2012 |
-| 911 | The Harmony of the Runes | This track unlocks at the Wizard's Tower. | 28 November 2012 |
-| 912 | Forgotten Orders | This track unlocks under the Wizard's Tower after the Rune Mysteries quest. | 28 November 2012 |
-| 913 | Sea Folk | This track unlocks in a Player Owned Port. | 11 December 2012 |
-| 914 | Sea Hear | This track unlocks in a Player Owned Port. | 11 December 2012 |
-| 915 | Sea You Late Oar | This track unlocks in a Player Owned Port. | 11 December 2012 |
-| 916 | Shanty Instrumental | This track unlocks in a Player Owned Port. | 11 December 2012 |
-| 917 | Stick Your Ale In | This track unlocks in a Player Owned Port. | 11 December 2012 |
-| 918 | Stick Your Oar In | This track unlocks in a Player Owned Port. | 11 December 2012 |
 
 ### 2013
 
@@ -364,38 +191,6 @@
 | 935 | Always on my Rind | This track unlocks during Bringing Home the Bacon quest. | 9 July 2013 |
 | 936 | Underbelly | This track unlocks during Bringing Home the Bacon quest. | 9 July 2013 |
 | 937 | Glutton for Nourishment | This track unlocks during Bringing Home the Bacon quest. | 9 July 2013 |
-| 938 | Baroque II | This track unlocks in Ardougne. | 22 July 2013 |
-| 939 | Battlefield I | This track was unlocked automatically. | 22 July 2013 |
-| 940 | Battlefield II | This track was unlocked automatically. | 22 July 2013 |
-| 941 | Creation | This track was unlocked automatically. | 22 July 2013 |
-| 942 | Fragments of Guthix | This track unlocks in the crater behind Lumbridge Castle. | 22 July 2013 |
-| 943 | Garden Echo | This track unlocks to the north-east of Varrock. | 22 July 2013 |
-| 944 | Machines of War | This track was unlocked automatically. | 22 July 2013 |
-| 945 | Master of Light | This track was unlocked automatically. | 22 July 2013 |
-| 946 | Max Reidneer Variations | This track unlocks in the Falador Party Room. | 22 July 2013 |
-| 947 | Medieval II | This track unlocks to the west of the Dig Site. | 22 July 2013 |
-| 948 | Misthalin Mood I | This track unlocks at the Grand Exchange. | 22 July 2013 |
-| 949 | Misthalin Mood II | This track unlocks at the Grand Exchange. | 22 July 2013 |
-| 950 | Misthalin Mood III | This track unlocks at the Grand Exchange. | 22 July 2013 |
-| 951 | Remnants | This track was unlocked automatically. | 22 July 2013 |
-| 952 | Saradomin Camp | This track was unlocked automatically. | 22 July 2013 |
-| 953 | Saradominists | This track was unlocked automatically. | 22 July 2013 |
-| 954 | Scape Bold | This track was unlocked automatically. | 22 July 2013 |
-| 955 | Scape Dark | This track unlocks at White Wolf Mountain or on return to Ashdale. | 22 July 2013 |
-| 956 | Scape Melancholy | This track was unlocked automatically. | 22 July 2013 |
-| 957 | Scape Slow | This track unlocks in the crater behind Lumbridge Castle. | 22 July 2013 |
-| 958 | Second Harmony | This track unlocks to the north of Falador. | 22 July 2013 |
-| 959 | The Town | This track unlocks in the centre of Varrock. | 22 July 2013 |
-| 960 | Village Dance | This track unlocks at the Dwarven Mine south of Ice Mountain. | 22 July 2013 |
-| 961 | Village Fate | This track unlocks in Edgeville. | 22 July 2013 |
-| 962 | Village Life | This track unlocks in the Barbarian Village. | 22 July 2013 |
-| 963 | Wander Waltz | This track unlocks to the south of Falador. | 22 July 2013 |
-| 964 | Waterfall II | This track unlocks at Baxtorian Falls. | 22 July 2013 |
-| 965 | Waterfall III | This track unlocks at Baxtorian Falls. | 22 July 2013 |
-| 966 | Zamorak Camp | This track was unlocked automatically. | 22 July 2013 |
-| 967 | Fighting and Praying | This track unlocks somewhere inside the Black Knights' Fortress. | 13 August 2013 |
-| 968 | Hidden Evils | This track unlocks somewhere inside the Black Knights' Fortress. | 13 August 2013 |
-| 969 | Infiltration | This track unlocks somewhere inside the Black Knights' Fortress. | 13 August 2013 |
 | 970 | Skirmish | This track unlocks during The Death of Chivalry quest. | 13 August 2013 |
 | 971 | Fern | This track unlocks during The Death of Chivalry quest. | 13 August 2013 |
 | 972 | Fighting for Light Part I | This track unlocks during The Death of Chivalry quest. | 13 August 2013 |
@@ -404,7 +199,6 @@
 | 975 | Memories of Keldagrim | This track unlocks during Birthright of the Dwarves quest. | 2 October 2013 |
 | 976 | Rage of the Red Axe | This track unlocks during Birthright of the Dwarves quest. | 2 October 2013 |
 | 977 | Red Axe Retribution | This track unlocks during Birthright of the Dwarves quest. | 2 October 2013 |
-| 978 | Undying | This track unlocks on the path to Morytania. | 15 October 2013 |
 | 979 | Empyrean Citadel | This track unlocks during Missing Presumed Death quest. | 15 October 2013 |
 | 980 | Cliffhanger | This track unlocks during Missing Presumed Death quest. | 15 October 2013 |
 | 981 | Dying Light | This track unlocks during Missing Presumed Death quest. | 15 October 2013 |
