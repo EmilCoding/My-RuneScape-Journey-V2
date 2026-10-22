@@ -142,4 +142,4 @@ RuneScape 2 was released with a lot of new content. The pre-split label refers t
 Still RuneScape 2, but after the Old School/Modern split. Iconic bosses and quests were released here, including the God Wars Dungeon, Corporeal Beast, Ritual of the Mahjarrat, etc. On 20 November 2012, the [Evolution of Combat](https://runescape.wiki/w/Evolution_of_Combat) was released, which changed the combat system completely. The start of this new era did not go well, as many players disliked the update and quit the game. This drove the community to private servers, which eventually led Jagex to poll the release of Old School RuneScape based on an old 10 August 2007 backup. This kickstarted OSRS, which became the more popular game of the two. [RuneScape Wiki](https://runescape.wiki/w/Old_School_RuneScape).
 
 
-*Last updated: 14 October 2026*
+*Last updated: 16 October 2026*
