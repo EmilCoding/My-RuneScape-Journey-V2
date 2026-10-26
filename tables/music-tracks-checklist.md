@@ -13,35 +13,14 @@
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 248 | Castle Wars | This track unlocks during Castle Wars, fighting for Saradomin. | 13 December 2004 |
 | 380 | Pest Control | This track unlocks during Pest Control. | 18 April 2006 |
 | 530 | Guthix's Hunter | This track unlocks during Fist of Guthix. | 9 April 2008 |
 | 565 | Stealing Creation | This track unlocks during Stealing Creation. | 11 November 2008 |
-| 575 | Soul Wars | This track unlocks during Soul Wars. | 10 February 2009 |
 
 ## Music tracks that are not released yet for me.
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 603 | Lamistard's Labyrinth | This track unlocks during The Curse of Arrav. | 21 July 2009 |
-| 604 | The Heist | This track unlocks during The Curse of Arrav or Dishonour among Thieves. | 21 July 2009 |
-| 605 | Exhibit 'A' | This track unlocks when confronting the Odd Old Man's 'Exhibit'. | 10 August 2009 |
-| 606 | Fight of the Dwarves | This track unlocks during Forgiveness of a Chaos Dwarf. | 9 September 2009 |
-| 607 | Living Rock | This track unlocks in the Living Rock Caverns. | 17 September 2009 |
-| 609 | Elven Seed | This track unlocks during Within the Light. | 13 October 2009 |
-| 614 | The Horn of Chill | This track unlocks during The Temple at Senntisten quest. | 3 December 2009 |
-| 615 | Zaros Stirs | This track unlocks during The Temple at Senntisten quest. | 3 December 2009 |
-| 616 | Final Destination | This track unlocks in Kuradal's Slayer Dungeon. | 8 December 2009 |
-| 623 | The Fallen Hero | This track unlocks during Blood Runs Deep. | 15 December 2009 |
-| 624 | Jaws of the Dagannoth | This track unlocks during Blood Runs Deep. | 15 December 2009 |
-| 625 | Maiasaura | This track unlocks during Blood Runs Deep. | 15 December 2009 |
-
-### 2010
-
-| Id | Title | Unlock hint | Release |
-| -- | ----- | ----------- | ------- |
-| 629 | Battle of Souls | This track unlocks during Nomad's Requiem. | 11 January 2010 |
-| 630 | Desolate Ruins | This track unlocks during Nomad's Requiem. | 11 January 2010 |
 | 631 | These Stones | This track unlocks in the basement of the Mage Training Arena. | 1 February 2010 |
 | 632 | A Familiar Feeling | This track unlocks during the Familiarisation event. | 16 February 2010 |
 | 635 | Freshwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
