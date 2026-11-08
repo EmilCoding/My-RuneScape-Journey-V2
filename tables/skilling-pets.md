@@ -8,6 +8,8 @@
 | ![Cooking-icon](https://runescape.wiki/images/Cooking-icon.png?00812) | Ramsay | 6. January 2025 |
 | ![Constitution-icon](https://runescape.wiki/images/Constitution-icon.png?bbf9a) | Morty | 13. March 2026 - 24. March 2026 |
 | ![Fletching-icon](https://runescape.wiki/images/Fletching-icon.png?00a4d) | Flo | 10. October 2026 |
+| ![Dungeoneering-icon](https://runescape.wiki/images/Dungeoneering-icon.png?ed8da) | Gordie | 30. October 2026 |
+
  
 <!-- 
 Icons to fetch
@@ -33,7 +35,7 @@ Icons to fetch
 
 - ![Hunter-icon](https://runescape.wiki/images/Hunter-icon.png?53188)
 - ![Summoning-icon](https://runescape.wiki/images/Summoning-icon.png?4e07d)
-- ![Dungeoneering-icon](https://runescape.wiki/images/Dungeoneering-icon.png?ed8da)
+
 - ![Divination-icon](https://runescape.wiki/images/Divination-icon.png?c19b9)
 - ![Invention-icon](https://runescape.wiki/images/Invention-icon.png?ce4a7)
 - ![Invention-icon](https://runescape.wiki/images/Invention-icon.png?ce4a7)

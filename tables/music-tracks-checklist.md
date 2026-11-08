@@ -16,21 +16,16 @@
 | 380 | Pest Control | This track unlocks during Pest Control. | 18 April 2006 |
 | 530 | Guthix's Hunter | This track unlocks during Fist of Guthix. | 9 April 2008 |
 | 565 | Stealing Creation | This track unlocks during Stealing Creation. | 11 November 2008 |
+| 632 | A Familiar Feeling | This track unlocks during the Familiarisation event. | 16 February 2010 |
+| 635 | Freshwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
+| 636 | Saltwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
+| 637 | Stillwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
+| 694 | Castle Warz | This track unlocks during Castle Wars, fighting for Zamorak. | 27 May 2010 |
 
 ## Music tracks that are not released yet for me.
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 631 | These Stones | This track unlocks in the basement of the Mage Training Arena. | 1 February 2010 |
-| 632 | A Familiar Feeling | This track unlocks during the Familiarisation event. | 16 February 2010 |
-| 635 | Freshwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
-| 636 | Saltwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
-| 637 | Stillwater | This track unlocks during a Fish Flingers competition. | 23 March 2010 |
-| 692 | Root Canal | This track unlocks during Fairy Tale Part III. | 13 May 2010 |
-| 693 | Body Talk | This track unlocks during Elemental Workshop III | 25 May 2010 |
-| 694 | Castle Warz | This track unlocks during Castle Wars, fighting for Zamorak. | 27 May 2010 |
-| 696 | Lortnoc Tsep | This track unlocks during Quiet Before the Swarm. | 24 June 2010 |
-| 697 | Mindful | This track unlocks during Quiet Before the Swarm. | 24 June 2010 |
 | 698 | Love and Hate | This track unlocks during Love Story. | 5 July 2010 |
 | 699 | Love Bites | This track unlocks during Love Story. | 5 July 2010 |
 | 700 | Love Lost | This track unlocks during Love Story. | 5 July 2010 |
@@ -39,11 +34,6 @@
 | 703 | Out of Control | This track unlocks during A Void Dance. | 10 August 2010 |
 | 704 | Void Knights' Theme | This track unlocks during Quiet Before the Swarm. | 10 August 2010 |
 | 705 | Yk'Lagor the Thunderous | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 706 | Flesh-spoiler Haasghenahk | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 708 | Necrolord | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 719 | Runed Behemoth | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 720 | Skeletal Trio | This track unlocks during Dungeoneering. | 19 August 2010 |
-| 721 | Destiny | This track was unlocked automatically. | 25 August 2010 |
 | 722 | Right of Conquest | This track unlocks in the Conquest lobby. | 25 August 2010 |
 | 723 | Unavoidable Conflict | This track unlocks during a Conquest battle. | 25 August 2010 |
 | 725 | Give it Your Pest Shot | This track unlocks during The Void Stares Back. | 6 October 2010 |
@@ -52,7 +42,6 @@
 | 728 | Precarious Void | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 729 | The Void Stares Back | This track unlocks during The Void Stares Back. | 6 October 2010 |
 | 730 | Who Are We to Judge? | This track unlocks during The Void Stares Back. | 6 October 2010 |
-| 732 | Halloween Party | This track was unlocked during or after the Halloween 2010 event. | 18 October 2010 |
 | 733 | Blink | This track unlocks during Dungeoneering. | 2 November 2010 |
 | 734 | Dreadnaut | This track unlocks during Dungeoneering. | 2 November 2010 |
 | 735 | Hope Devourer | This track unlocks during Dungeoneering. | 2 November 2010 |

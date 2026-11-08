@@ -220,8 +220,13 @@ def count_updates(
 
 
 def get_current_update() -> UpdateInfo:
-    """Get current update."""
-    if updates := list(get_updates(with_all=True)):
+    """Get the current in-game update based on the file structure."""
+    """
+    1. First check the root of the project for files.
+    2. Secondly check the last completed or last partially completed
+    3. Check future updates.
+    """
+    if updates := list(get_updates(with_root=True)):
         return min(updates, key=lambda x: x.date)
 
     if updates := list(get_updates(with_partially_completed=True, with_completed=True)):
@@ -245,9 +250,10 @@ def get_next_update() -> None | UpdateInfo:
 
 
 def get_current_update_window() -> DateRange:
+    """Get the in-game window where I have reached based on the update folders."""
     return DateRange(
-        current_ingame_date(),
-        update.date if (update := get_next_update()) else None,
+        start=current_ingame_date(),
+        end=update.date if (update := get_next_update()) else None,
     )
 
 

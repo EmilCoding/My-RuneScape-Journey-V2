@@ -6,7 +6,7 @@ I need to get all pets from [Soul Wars](../partially%20completed/RuneScape%202/2
 I need to get a phoenix [In pyre needs](../partially%20completed/RuneScape%202/2009/2009.01.06%20-%20Update%20In%20Pyre%20Need.md)
 
 
-Currently growning: *Currently none*
+Currently growning: *Tooth creature*
 
 Missing pets:
 
