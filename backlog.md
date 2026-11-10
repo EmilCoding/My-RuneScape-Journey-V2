@@ -183,6 +183,8 @@ Skill capes was released on the 18. August 2006 on [this](./partially%20complete
 - **Pest control rewards**
   - [Wave 1](./partially%20completed/RuneScape%202/2006/2006.06.06%20-%20Update%20Pest%20Control%20update.md)
   - [Wave 2](./partially%20completed/RuneScape%202/2007/2007.07.17%20-%20Update%20Pest%20Control%20Update.md)
+  - [Wave 3](./partially%20completed/RuneScape%202/2008/2008.03.31%20-%20Update%20Summoning%202.md)
+  - [Wave 4](./partially%20completed/RuneScape%202/2010/2010.08.25%20-%20Update%20Conquest.md)
 
 - **Trouble Brewing** [Trouble Brewing](./partially%20completed/RuneScape%202/2006/2006.07.04%20-%20Update%20Security%20and%20free-to-play%20update%20-%20the%20Stronghold%20of%20Security.md)
 
@@ -198,6 +200,8 @@ Skill capes was released on the 18. August 2006 on [this](./partially%20complete
 
 - **Get all the rewards from [Fish flingers](./partially%20completed/RuneScape%202/2010/2010.03.23%20-%20Update%20Fish%20Flingers.md)** 
   - Get the [Champion's tackle box](./partially%20completed/RuneScape%202/2010/2010.03.23%20-%20Update%20Fish%20Flingers.md)
+  
+- **Get rank 1,250+ in [Conquest](./partially%20completed/RuneScape%202/2010/2010.08.25%20-%20Update%20Conquest.md)**
 
 ## Weekly DnD
 

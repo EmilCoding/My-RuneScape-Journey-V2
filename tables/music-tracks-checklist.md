@@ -26,9 +26,6 @@
 
 | Id | Title | Unlock hint | Release |
 | -- | ----- | ----------- | ------- |
-| 698 | Love and Hate | This track unlocks during Love Story. | 5 July 2010 |
-| 699 | Love Bites | This track unlocks during Love Story. | 5 July 2010 |
-| 700 | Love Lost | This track unlocks during Love Story. | 5 July 2010 |
 | 701 | All for the Pest | This track unlocks during A Void Dance. | 10 August 2010 |
 | 702 | Chain Reaction | This track unlocks during A Void Dance. | 10 August 2010 |
 | 703 | Out of Control | This track unlocks during A Void Dance. | 10 August 2010 |
